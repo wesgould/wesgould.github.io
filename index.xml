@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wesgould.com</title>
+    <link>https://wesgould.github.io/</link>
+    <description>Recent content on wesgould.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2003</copyright>
+    <lastBuildDate>Wed, 22 Nov 2023 22:35:44 -0500</lastBuildDate>
+    <atom:link href="https://wesgould.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating to Hugo</title>
+      <link>https://wesgould.github.io/blog/migrating-to-hugo/</link>
+      <pubDate>Wed, 22 Nov 2023 22:35:44 -0500</pubDate>
+      <guid>https://wesgould.github.io/blog/migrating-to-hugo/</guid>
+      <description>Placeholder for post about moving from Publii to Hugo</description>
+    </item>
+    <item>
+      <title>Creating NFS Shares</title>
+      <link>https://wesgould.github.io/projects/creating-nfs-shares/</link>
+      <pubDate>Wed, 22 Nov 2023 22:05:46 -0500</pubDate>
+      <guid>https://wesgould.github.io/projects/creating-nfs-shares/</guid>
+      <description>Creating an NFS share# If you are trying to share between *nix systems, the Network File Servers (NFS) are really easy to set up. Note: If you are planning on sharing with Windows machines, SMB/Samba is a better option.
+It should also be noted that NFS doesn&amp;rsquo;t restrict, by default, to individual users. It limits to IPs and IP ranges&amp;ndash;which makes it ideal for secure networks, but less-than-ideal for non-secure / public networks.</description>
+    </item>
+    <item>
+      <title>Enchilada Casserole</title>
+      <link>https://wesgould.github.io/recipes/enchilada-casserole/</link>
+      <pubDate>Wed, 22 Nov 2023 15:16:43 -0500</pubDate>
+      <guid>https://wesgould.github.io/recipes/enchilada-casserole/</guid>
+      <description>One of Mom’s favorite recipes from Kris H. &amp;amp; Robin K.
+Ingredients# 2 cups Grated Cheddar Cheese
+½ cup Finely Chopped Green Onion
+2 cans Cream of Chicken Soup
+1 cup Sour Cream
+1 can Chopped Green Chilies*. these come in very small can in Mexican Food section of grocery store. DO NOT GET FIREROASTED The cans are almost identical but the taste is not.
+½ tsp. Salt
+2 cans Chicken, all white meat OR 4 Chicken Breasts, cooked1 and chopped</description>
+    </item>
+    <item>
+      <title>Cincinatti Chili</title>
+      <link>https://wesgould.github.io/recipes/cincinatti-chili/</link>
+      <pubDate>Wed, 22 Nov 2023 11:12:59 -0500</pubDate>
+      <guid>https://wesgould.github.io/recipes/cincinatti-chili/</guid>
+      <description>Ingredients List# For the chili:
+2 pounds ground beef (80:20 is good; 90:10 works as well and will obviously be less fatty) 1 6-ounce can tomato paste 4 cups water 1 (8-ounce) can tomato sauce 1 large onion, minced 6 cloves garlic, minced (pre-minced in the jar is fine) 3 tablespoons chili powder 1 teaspoon cumin 1 teaspoon cinnamon 3/4 teaspoon ground allspice 1/4 teaspoon ground cloves 1/2 teaspoon cayenne 2 teaspoons kosher salt 2 tablespoons Worcestershire sauce TIP: Measure all of your ingredients first.</description>
+    </item>
+    <item>
+      <title>Turkey Trot 2019</title>
+      <link>https://wesgould.github.io/blog/turkey-trot-2019/</link>
+      <pubDate>Thu, 28 Nov 2019 10:02:06 -0500</pubDate>
+      <guid>https://wesgould.github.io/blog/turkey-trot-2019/</guid>
+      <description>Turkey Trot 2k19# Date: November 28, 2019
+The family decided to go to a Turkey Trot before we ate Thanksgiving dinner. I bet my niece $1 that I would run it in under 40 minutes. I got &amp;lt; 33 minutes (unofficially—the times aren&amp;rsquo;t posted yet).
+About 900 people signed up for this particular 5k!
+The 2nd prize was a huge pie (and a $50 Dick&amp;rsquo;s gift card, but you can&amp;rsquo;t eat that so it&amp;rsquo;s less important).</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://wesgould.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wesgould.github.io/about/</guid>
+      <description>I&amp;rsquo;ll fill this in with more details later, but I wanted to get something on this page for the migration from Publii. Sup homies!
+Attributions# This theme depends on the following projects:
+Powered by Hugo Color scheme based on Gruvbox Code Highlighting by Prism Tabler Icons Simple Icons Content with the #hugo-basic-example tag originates from gohugoio/hugoBasicExample A big thanks to the creators! ❤️
+Legal# The theme is licensed under MIT.</description>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>https://wesgould.github.io/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wesgould.github.io/cv/</guid>
+      <description>Experience# - present Education# Information Technology (Bachelor) 2011-06-01 - 2014-01-01 University of Oklahoma 4.0 DB1101 - Basic SQL CS2011 - Java Introduction Volunteering# Teacher 2012-01-01 - 2013-01-01 CoderDojo Global movement of free coding clubs for young people.
+Awarded &amp;#39;Teacher of the Month&amp;#39; Awards# Digital Compression Pioneer Award 2014-11-01 Techcrunch There is no spoon.
+Certificates# Publications# Video compression for 3d media 2014-10-01 Hooli Innovative middle-out compression algorithm that changes the way we store data.</description>
+    </item>
+    <item>
+      <title>Lebenslauf</title>
+      <link>https://wesgould.github.io/cv.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wesgould.github.io/cv.de/</guid>
+      <description>Erfahrung# - present Ausbildung# Information Technology (Bachelor) 2011-06-01 - 2014-01-01 University of Oklahoma 4.0 DB1101 - Basic SQL CS2011 - Java Introduction Ehrenamt# Teacher 2012-01-01 - 2013-01-01 CoderDojo Global movement of free coding clubs for young people.
+Awarded &amp;#39;Teacher of the Month&amp;#39; Auszeichnungen# Digital Compression Pioneer Award 2014-11-01 Techcrunch There is no spoon.
+Zertifikate# Publikationen# Video compression for 3d media 2014-10-01 Hooli Innovative middle-out compression algorithm that changes the way we store data.</description>
+    </item>
+  </channel>
+</rss>
