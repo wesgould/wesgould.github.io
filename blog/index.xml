@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on wesgould.com</title>
+    <link>https://wesgould.github.io/blog/</link>
+    <description>Recent content in Blogs on wesgould.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2003</copyright>
+    <lastBuildDate>Sun, 26 Nov 2023 10:43:36 -0500</lastBuildDate>
+    <atom:link href="https://wesgould.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://wesgould.github.io/blog/test/</link>
+      <pubDate>Sun, 26 Nov 2023 10:43:36 -0500</pubDate>
+      <guid>https://wesgould.github.io/blog/test/</guid>
+      <description>This is a test of the emergency blogcast system.</description>
+    </item>
+    <item>
+      <title>Migrating to Hugo</title>
+      <link>https://wesgould.github.io/blog/migrating-to-hugo/</link>
+      <pubDate>Wed, 22 Nov 2023 22:35:44 -0500</pubDate>
+      <guid>https://wesgould.github.io/blog/migrating-to-hugo/</guid>
+      <description>Placeholder for post about moving from Publii to Hugo</description>
+    </item>
+    <item>
+      <title>Turkey Trot 2019</title>
+      <link>https://wesgould.github.io/blog/turkey-trot-2019/</link>
+      <pubDate>Thu, 28 Nov 2019 10:02:06 -0500</pubDate>
+      <guid>https://wesgould.github.io/blog/turkey-trot-2019/</guid>
+      <description>Turkey Trot 2k19# Date: November 28, 2019
+The family decided to go to a Turkey Trot before we ate Thanksgiving dinner. I bet my niece $1 that I would run it in under 40 minutes. I got &amp;lt; 33 minutes (unofficially—the times aren&amp;rsquo;t posted yet).
+About 900 people signed up for this particular 5k!
+The 2nd prize was a huge pie (and a $50 Dick&amp;rsquo;s gift card, but you can&amp;rsquo;t eat that so it&amp;rsquo;s less important).</description>
+    </item>
+  </channel>
+</rss>
