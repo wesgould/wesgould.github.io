@@ -14,8 +14,7 @@
       <link>https://wesgould.github.io/projects/creating-nfs-shares/</link>
       <pubDate>Wed, 22 Nov 2023 22:05:46 -0500</pubDate>
       <guid>https://wesgould.github.io/projects/creating-nfs-shares/</guid>
-      <description>Creating an NFS share# If you are trying to share between *nix systems, the Network File Servers (NFS) are really easy to set up. Note: If you are planning on sharing with Windows machines, SMB/Samba is a better option.
-It should also be noted that NFS doesn&amp;rsquo;t restrict, by default, to individual users. It limits to IPs and IP ranges&amp;ndash;which makes it ideal for secure networks, but less-than-ideal for non-secure / public networks.</description>
+      <description>Creating an NFS share# If you are trying to share between *nix systems, the Network File Servers (NFS) are really easy to set up. Note: If you are planning on sharing with Windows machines, SMB/Samba is a better option.&#xA;It should also be noted that NFS doesn&amp;rsquo;t restrict, by default, to individual users. It limits to IPs and IP ranges&amp;ndash;which makes it ideal for secure networks, but less-than-ideal for non-secure / public networks.</description>
     </item>
   </channel>
 </rss>
