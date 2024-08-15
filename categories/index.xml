@@ -5,8 +5,6 @@
     <link>https://wesgould.github.io/categories/</link>
     <description>Recent content in Categories on wesgould.com</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright © 2003</copyright>
-    <atom:link href="https://wesgould.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2003</copyright><atom:link href="https://wesgould.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

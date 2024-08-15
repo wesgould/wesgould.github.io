@@ -5,30 +5,48 @@
     <link>https://wesgould.github.io/blog/</link>
     <description>Recent content in Blogs on wesgould.com</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <copyright>Copyright © 2003</copyright>
-    <lastBuildDate>Sat, 02 Dec 2023 20:08:11 -0500</lastBuildDate>
-    <atom:link href="https://wesgould.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 21:26:01 -0400</lastBuildDate><atom:link href="https://wesgould.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testondesktop</title>
+      <link>https://wesgould.github.io/blog/testondesktop/</link>
+      <pubDate>Wed, 14 Aug 2024 21:26:01 -0400</pubDate>
+      
+      <guid>https://wesgould.github.io/blog/testondesktop/</guid>
+      <description>Testing from the desktop#  </description>
+    </item>
+    
     <item>
       <title>Migration Pt2</title>
       <link>https://wesgould.github.io/blog/migration-pt2/</link>
       <pubDate>Sat, 02 Dec 2023 20:08:11 -0500</pubDate>
+      
       <guid>https://wesgould.github.io/blog/migration-pt2/</guid>
-      <description>Updating DNS Records# This was a fairly straightforward process:&#xA;Log into GitHub &amp;gt; Go to your public repo &amp;gt; Settings &amp;gt; Pages: and enter your domain in the Custom Domain section Add your domain name www.wesgould.com Log into your DNS provider. Delete CNAME / A-RECORDs for www.wesgould.com and wesgould.com to avoid conflicts with the new records. ADD CNAME RECORD for www.wesgould.com. Add A-RECORD for wesgould.com. To create A records, point your apex domain to the IP addresses for GitHub Pages: - 185.</description>
+      <description>Updating DNS Records#  This was a fairly straightforward process:
+ Log into GitHub &amp;gt; Go to your public repo &amp;gt; Settings &amp;gt; Pages: and enter your domain in the Custom Domain section    Add your domain name www.wesgould.com Log into your DNS provider.  Delete CNAME / A-RECORDs for www.wesgould.com and wesgould.com to avoid conflicts with the new records. ADD CNAME RECORD for www.wesgould.com. Add A-RECORD for wesgould.</description>
     </item>
+    
     <item>
       <title>Migrating to Hugo</title>
       <link>https://wesgould.github.io/blog/migrating-to-hugo/</link>
       <pubDate>Fri, 24 Nov 2023 22:35:44 -0500</pubDate>
+      
       <guid>https://wesgould.github.io/blog/migrating-to-hugo/</guid>
-      <description>It&amp;rsquo;s been an&amp;hellip;adventure.&#xA;Why Switch from Publii to Hugo?# I am switching from Publii to Hugo because I wanted to take advantage of the text notes I was already taking with Vimwiki for my various projects. The Publii interface was nice, but I&amp;rsquo;m already writing notes in a format that doesn&amp;rsquo;t require me to use their WYSIWYG editor. I know that seems lazy, but it&amp;rsquo;s an extra step that caused just enough friction that I wouldn&amp;rsquo;t update the blog.</description>
+      <description>It&amp;rsquo;s been an&amp;hellip;adventure.
+Why Switch from Publii to Hugo?#  I am switching from Publii to Hugo because I wanted to take advantage of the text notes I was already taking with Vimwiki for my various projects. The Publii interface was nice, but I&amp;rsquo;m already writing notes in a format that doesn&amp;rsquo;t require me to use their WYSIWYG editor. I know that seems lazy, but it&amp;rsquo;s an extra step that caused just enough friction that I wouldn&amp;rsquo;t update the blog.</description>
     </item>
+    
     <item>
       <title>Turkey Trot 2019</title>
       <link>https://wesgould.github.io/blog/turkey-trot-2019/</link>
       <pubDate>Thu, 28 Nov 2019 10:02:06 -0500</pubDate>
+      
       <guid>https://wesgould.github.io/blog/turkey-trot-2019/</guid>
-      <description>Turkey Trot 2k19# Date: November 28, 2019&#xA;The family decided to go to a Turkey Trot before we ate Thanksgiving dinner. I bet my niece $1 that I would run it in under 40 minutes. I got &amp;lt; 33 minutes (unofficially—the times aren&amp;rsquo;t posted yet).&#xA;About 900 people signed up for this particular 5k!&#xA;The 2nd prize was a huge pie (and a $50 Dick&amp;rsquo;s gift card, but you can&amp;rsquo;t eat that so it&amp;rsquo;s less important).</description>
+      <description>Turkey Trot 2k19#  Date: November 28, 2019
+The family decided to go to a Turkey Trot before we ate Thanksgiving dinner. I bet my niece $1 that I would run it in under 40 minutes. I got &amp;lt; 33 minutes (unofficially—the times aren&amp;rsquo;t posted yet).
+About 900 people signed up for this particular 5k!
+The 2nd prize was a huge pie (and a $50 Dick&amp;rsquo;s gift card, but you can&amp;rsquo;t eat that so it&amp;rsquo;s less important).</description>
     </item>
+    
   </channel>
 </rss>
