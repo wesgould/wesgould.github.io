@@ -51,34 +51,44 @@
 />
 
   
-  <meta name="robots" content="noindex, follow" />
+  
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+  
 
 
 
 
-<title>404 Page not found</title>
+<title>Running an LLM locally on Pop!_OS with ROCm support</title>
 
 <meta
   name="description"
-  content=""
+  content="Running ROCm on Pop!#  This has gotten sooo much easier than when I tried to set this up 2 years ago. ROCm has come a long way, but the support and tooling has advanced as well. Now you don&amp;rsquo;t have to jump through tons of hoops to get AI libraries and software to work with ROCm. The last time I tried this, I needed to add ubuntu repos, edit my /etc/os-release file to pretend I was using ubuntu&amp;quot;, and do a rain-dance to get my Raedeon 6900xt in a usable state."
 />
 
-<link rel="canonical" href="https://wesgould.github.io/404.html" />
+<link rel="canonical" href="https://wesgould.github.io/blog/rocm-on-pop/" />
 
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Running an LLM locally on Pop!_OS with ROCm support"/>
+<meta name="twitter:description" content="Running ROCm on Pop!#  This has gotten sooo much easier than when I tried to set this up 2 years ago. ROCm has come a long way, but the support and tooling has advanced as well. Now you don&rsquo;t have to jump through tons of hoops to get AI libraries and software to work with ROCm. The last time I tried this, I needed to add ubuntu repos, edit my /etc/os-release file to pretend I was using ubuntu&quot;, and do a rain-dance to get my Raedeon 6900xt in a usable state."/>
 
-<meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://wesgould.github.io/404.html" />
+<meta property="og:title" content="Running an LLM locally on Pop!_OS with ROCm support" />
+<meta property="og:description" content="Running ROCm on Pop!#  This has gotten sooo much easier than when I tried to set this up 2 years ago. ROCm has come a long way, but the support and tooling has advanced as well. Now you don&rsquo;t have to jump through tons of hoops to get AI libraries and software to work with ROCm. The last time I tried this, I needed to add ubuntu repos, edit my /etc/os-release file to pretend I was using ubuntu&quot;, and do a rain-dance to get my Raedeon 6900xt in a usable state." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wesgould.github.io/blog/rocm-on-pop/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2024-08-21T10:49:09-04:00" />
+<meta property="article:modified_time" content="2024-08-21T10:49:09-04:00" />
 
 
-<meta itemprop="name" content="404 Page not found">
-<meta itemprop="description" content="">
+<meta itemprop="name" content="Running an LLM locally on Pop!_OS with ROCm support">
+<meta itemprop="description" content="Running ROCm on Pop!#  This has gotten sooo much easier than when I tried to set this up 2 years ago. ROCm has come a long way, but the support and tooling has advanced as well. Now you don&rsquo;t have to jump through tons of hoops to get AI libraries and software to work with ROCm. The last time I tried this, I needed to add ubuntu repos, edit my /etc/os-release file to pretend I was using ubuntu&quot;, and do a rain-dance to get my Raedeon 6900xt in a usable state."><meta itemprop="datePublished" content="2024-08-21T10:49:09-04:00" />
+<meta itemprop="dateModified" content="2024-08-21T10:49:09-04:00" />
+<meta itemprop="wordCount" content="533">
+<meta itemprop="keywords" content="" />
 
 
 
@@ -320,10 +330,248 @@
         <div class="content">
           
   <article class="post">
-    <h1>404 Page not found</h1>
-    <div class="post-content">
-      <p>This is not the page you're looking for.</p>
+    <div class="post-header">
+      <h1>Running an LLM locally on Pop!_OS with ROCm support</h1>
+      <div class="post-meta"><span>2024-08-21</span>
+
+  
+</div>
+
     </div>
+
+    <div class="post-content">
+      <h2 id="running-rocm-on-pop">Running ROCm on Pop!<a href="#running-rocm-on-pop" class="post-heading__anchor" aria-hidden="true">#</a>
+</h2>
+<p>This has gotten sooo much easier than when I tried to set this up 2 years ago. ROCm has come a long way, but the support
+and tooling has advanced as well. Now you don&rsquo;t have to jump through tons of hoops to get AI libraries and software to
+work with ROCm. The last time I tried this, I needed to add ubuntu repos, edit my <code>/etc/os-release</code> file to pretend I was
+using ubuntu&quot;, and do a rain-dance to get my Raedeon 6900xt in a usable state.</p>
+<p>Then once that was done, you realize that none of the software and libraries incorporated ROCm support and get really
+sad that you sold your Nvidia GFX card because &ldquo;radeon works better on linux&rdquo;. Basically, 2 years ago, getting ROCm
+setup was a pain in the ass and your only reward was buggy or nonfunctioning software since the AI/ML world is built on
+CUDA. Now it&rsquo;s much better with ROCm supporting CUDA and/or most of the libraries incorporating ROCm. Things like
+pytorch now support AMD ROCm natively.</p>
+<h2 id="getting-rocm-installed-on-pop_os-has-been-simplified-to-copying-and-pasting-some-commands">Getting ROCm installed on Pop!_OS has been simplified to copying and pasting some commands:<a href="#getting-rocm-installed-on-pop_os-has-been-simplified-to-copying-and-pasting-some-commands" class="post-heading__anchor" aria-hidden="true">#</a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget https://repo.radeon.com/rocm/rocm.gpg.key -O - | gpg --dearmor | sudo tee /etc/apt/keyrings/rocm.gpg &gt; /dev/null
+echo <span style="color:#e6db74">&#34;deb [arch=amd64 signed-by=/etc/apt/keyrings/rocm.gpg] https://repo.radeon.com/rocm/apt/6.1 jammy main&#34;</span> | sudo tee 
+--append /etc/apt/sources.list.d/rocm.list
+echo -e <span style="color:#e6db74">&#39;Package: *\nPin: release o=repo.radeon.com\nPin-Priority: 600&#39;</span> | sudo tee /etc/apt/preferences.d/rocm-pin-600
+</code></pre></div><p>Then update and install:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt install rocm
+</code></pre></div><p>Add user to the &lsquo;render&rsquo; group so your user profile has permission to use it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo usermod -a -G render $USER
+</code></pre></div><p>You can confirm it all works with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rocminfo
+</code></pre></div><h2 id="installing-the-actual-language-models">Installing the actual language models:<a href="#installing-the-actual-language-models" class="post-heading__anchor" aria-hidden="true">#</a>
+</h2>
+<p>Since we have ROCm installed and working properly, let&rsquo;s install a local LLM. I decided to use Ollama, which is Meta&rsquo;s
+open source model. Ollama.ai actually has a script that helps get it all up-and-running quickly. They even have a Linux
+version.</p>
+<p>I hate that this has become a common practice in the *nix community, because it&rsquo;s such a huge security risk, but they
+offer a script you can run if you copy and paste this command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -fsSL https://ollama.com/install.sh | sh
+</code></pre></div><p>Only do this if you have reviewed the script and/or can REALLY trust the source. You are downloading a script from the
+internet and piping it into your shell to run.</p>
+<p>There are manual steps here, though, that you can follow if you don&rsquo;t want to use the script:
+<a
+  href="https://github.com/ollama/ollama/blob/main/docs/linux.md"
+  
+  
+    class="link--external" target="_blank" rel="noreferrer"
+  
+>https://github.com/ollama/ollama/blob/main/docs/linux.md</a></p>
+<p>I ran the script (after I reviewed it!). If you&rsquo;ve done everything properly, you should be able to type:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ollama run llama3
+</code></pre></div><p>
+
+
+
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+        
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+
+
+    <picture>
+      <source
+        type="image/webp"
+        srcset="/blog/rocm-on-pop/ollama-run-server_huac56b1f46bcfe2ebe47b90e8be33443e_161684_300x0_resize_q75_h2_box_3.webp 300w,/blog/rocm-on-pop/ollama-run-server_huac56b1f46bcfe2ebe47b90e8be33443e_161684_500x0_resize_q75_h2_box_3.webp 500w,/blog/rocm-on-pop/ollama-run-server_huac56b1f46bcfe2ebe47b90e8be33443e_161684_700x0_resize_q75_h2_box_3.webp 700w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
+      />
+      <img
+        src="/blog/rocm-on-pop/ollama-run-server.png"
+        srcset="/blog/rocm-on-pop/ollama-run-server_huac56b1f46bcfe2ebe47b90e8be33443e_161684_300x0_resize_box_3.png 300w,/blog/rocm-on-pop/ollama-run-server_huac56b1f46bcfe2ebe47b90e8be33443e_161684_500x0_resize_box_3.png 500w,/blog/rocm-on-pop/ollama-run-server_huac56b1f46bcfe2ebe47b90e8be33443e_161684_700x0_resize_box_3.png 700w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
+        alt=""
+        
+        loading="lazy"
+        width="1488"
+        height="252"
+      />
+    </picture>
+  
+
+
+
+
+
+
+</p>
+<p>The first time you run this it will download <code>llama3</code>, which can take a bit, but it will drop you into a prompt. Where
+you can talk to it like you would ChatGPT or any other LLM.</p>
+<p>
+
+
+
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+        
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+
+
+    <picture>
+      <source
+        type="image/webp"
+        srcset="/blog/rocm-on-pop/prompt-shot_hu68b592b732149c1423aff500a5301255_208909_300x0_resize_q75_h2_box_3.webp 300w,/blog/rocm-on-pop/prompt-shot_hu68b592b732149c1423aff500a5301255_208909_500x0_resize_q75_h2_box_3.webp 500w,/blog/rocm-on-pop/prompt-shot_hu68b592b732149c1423aff500a5301255_208909_700x0_resize_q75_h2_box_3.webp 700w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
+      />
+      <img
+        src="/blog/rocm-on-pop/prompt-shot.png"
+        srcset="/blog/rocm-on-pop/prompt-shot_hu68b592b732149c1423aff500a5301255_208909_300x0_resize_box_3.png 300w,/blog/rocm-on-pop/prompt-shot_hu68b592b732149c1423aff500a5301255_208909_500x0_resize_box_3.png 500w,/blog/rocm-on-pop/prompt-shot_hu68b592b732149c1423aff500a5301255_208909_700x0_resize_box_3.png 700w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
+        alt=""
+        
+        loading="lazy"
+        width="1459"
+        height="586"
+      />
+    </picture>
+  
+
+
+
+
+
+
+</p>
+<p>And thats that! A working LLM on Pop!_OS using ROCm on your Radeon GFX card! The next step is adding a more user friendly, ChatGPT-like interface for it. This way you can discover and switch models easily, save your history, and easily set system prompts and your own guardrails&ndash;all locally, and privately. That will be on the next post when I have some time to tinker with it.</p>
+
+    </div>
+
+    
+
+    
   </article>
 
         </div>

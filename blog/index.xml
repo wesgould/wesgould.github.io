@@ -6,15 +6,14 @@
     <description>Recent content in Blogs on wesgould.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2003</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 21:26:01 -0400</lastBuildDate><atom:link href="https://wesgould.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Aug 2024 10:49:09 -0400</lastBuildDate><atom:link href="https://wesgould.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Testondesktop</title>
-      <link>https://wesgould.github.io/blog/testondesktop/</link>
-      <pubDate>Wed, 14 Aug 2024 21:26:01 -0400</pubDate>
+      <title>Running an LLM locally on Pop!_OS with ROCm support</title>
+      <link>https://wesgould.github.io/blog/rocm-on-pop/</link>
+      <pubDate>Wed, 21 Aug 2024 10:49:09 -0400</pubDate>
       
-      <guid>https://wesgould.github.io/blog/testondesktop/</guid>
-      <description>Testing from the desktop#  This is interesting because it doesn&amp;rsquo;t seem to be working
-edit: broke the site! edit: still broken, but worse this time! edit: known working</description>
+      <guid>https://wesgould.github.io/blog/rocm-on-pop/</guid>
+      <description>Running ROCm on Pop!#  This has gotten sooo much easier than when I tried to set this up 2 years ago. ROCm has come a long way, but the support and tooling has advanced as well. Now you don&amp;rsquo;t have to jump through tons of hoops to get AI libraries and software to work with ROCm. The last time I tried this, I needed to add ubuntu repos, edit my /etc/os-release file to pretend I was using ubuntu&amp;quot;, and do a rain-dance to get my Raedeon 6900xt in a usable state.</description>
     </item>
     
     <item>
