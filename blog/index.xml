@@ -6,7 +6,18 @@
     <description>Recent content in Blogs on wesgould.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2003</copyright>
-    <lastBuildDate>Wed, 21 Aug 2024 10:49:09 -0400</lastBuildDate><atom:link href="https://wesgould.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Aug 2024 14:49:51 -0400</lastBuildDate><atom:link href="https://wesgould.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using open-webui as a local ChatGPT replacement</title>
+      <link>https://wesgould.github.io/blog/open-webui/</link>
+      <pubDate>Fri, 23 Aug 2024 14:49:51 -0400</pubDate>
+      
+      <guid>https://wesgould.github.io/blog/open-webui/</guid>
+      <description>Using open-webui#  I set up a local LLM using ROCm on my desktop in my last post. So I have the LLM running locally, but its pretty clunky and as a paying user of ChatGPT, I want that cleaner UI/UX. Enter open-webui. This is exactly what I was looking for as a front-end for the ollama server I set up.
+I decided to go with the Docker setup.
+Since I fairly recently refreshed my install for Pop, I realized I didn&amp;rsquo;t have Docker installed on my machine anymore.</description>
+    </item>
+    
     <item>
       <title>Running an LLM locally on Pop!_OS with ROCm support</title>
       <link>https://wesgould.github.io/blog/rocm-on-pop/</link>

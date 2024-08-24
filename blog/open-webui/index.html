@@ -4,7 +4,6 @@
   data-theme="dark"
 >
   <head>
-	<meta name="generator" content="Hugo 0.92.2" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -62,43 +61,46 @@
 
 
 
-  
-  
-
-<title>wesgould.com</title>
+<title>Using open-webui as a local ChatGPT replacement</title>
 
 <meta
   name="description"
-  content=""
+  content="Using open-webui#  I set up a local LLM using ROCm on my desktop in my last post. So I have the LLM running locally, but its pretty clunky and as a paying user of ChatGPT, I want that cleaner UI/UX. Enter open-webui. This is exactly what I was looking for as a front-end for the ollama server I set up.
+I decided to go with the Docker setup.
+Since I fairly recently refreshed my install for Pop, I realized I didn&amp;rsquo;t have Docker installed on my machine anymore."
 />
 
-<link rel="canonical" href="https://wesgould.github.io/" />
+<link rel="canonical" href="https://wesgould.github.io/blog/open-webui/" />
 
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="wesgould.com"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Using open-webui as a local ChatGPT replacement"/>
+<meta name="twitter:description" content="Using open-webui#  I set up a local LLM using ROCm on my desktop in my last post. So I have the LLM running locally, but its pretty clunky and as a paying user of ChatGPT, I want that cleaner UI/UX. Enter open-webui. This is exactly what I was looking for as a front-end for the ollama server I set up.
+I decided to go with the Docker setup.
+Since I fairly recently refreshed my install for Pop, I realized I didn&rsquo;t have Docker installed on my machine anymore."/>
 
-<meta property="og:title" content="wesgould.com" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://wesgould.github.io/" />
+<meta property="og:title" content="Using open-webui as a local ChatGPT replacement" />
+<meta property="og:description" content="Using open-webui#  I set up a local LLM using ROCm on my desktop in my last post. So I have the LLM running locally, but its pretty clunky and as a paying user of ChatGPT, I want that cleaner UI/UX. Enter open-webui. This is exactly what I was looking for as a front-end for the ollama server I set up.
+I decided to go with the Docker setup.
+Since I fairly recently refreshed my install for Pop, I realized I didn&rsquo;t have Docker installed on my machine anymore." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wesgould.github.io/blog/open-webui/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2024-08-23T14:49:51-04:00" />
+<meta property="article:modified_time" content="2024-08-23T14:49:51-04:00" />
 
 
-<meta itemprop="name" content="wesgould.com">
-<meta itemprop="description" content="">
+<meta itemprop="name" content="Using open-webui as a local ChatGPT replacement">
+<meta itemprop="description" content="Using open-webui#  I set up a local LLM using ROCm on my desktop in my last post. So I have the LLM running locally, but its pretty clunky and as a paying user of ChatGPT, I want that cleaner UI/UX. Enter open-webui. This is exactly what I was looking for as a front-end for the ollama server I set up.
+I decided to go with the Docker setup.
+Since I fairly recently refreshed my install for Pop, I realized I didn&rsquo;t have Docker installed on my machine anymore."><meta itemprop="datePublished" content="2024-08-23T14:49:51-04:00" />
+<meta itemprop="dateModified" content="2024-08-23T14:49:51-04:00" />
+<meta itemprop="wordCount" content="464">
+<meta itemprop="keywords" content="" />
 
 
 
 
-
-  <link
-    rel="alternate"
-    type="application/rss&#43;xml"
-    href="/index.xml"
-    title="wesgould.com"
-  />
 
 
 
@@ -335,19 +337,9 @@
       <main>
         <div class="content">
           
-  <div class="content-section">
-    <h1>wesgould.com</h1>
-    
-  </div>
-  
-  
-  
-  
   <article class="post">
     <div class="post-header">
-      <h2>
-        <a href="/blog/open-webui/">Using open-webui as a local ChatGPT replacement</a>
-      </h2>
+      <h1>Using open-webui as a local ChatGPT replacement</h1>
       <div class="post-meta"><span>2024-08-23</span>
 
   
@@ -356,137 +348,153 @@
     </div>
 
     <div class="post-content">
-      
-        Using open-webui#  I set up a local LLM using ROCm on my desktop in my last post. So I have the LLM running locally, but its pretty clunky and as a paying user of ChatGPT, I want that cleaner UI/UX. Enter open-webui. This is exactly what I was looking for as a front-end for the ollama server I set up.
-I decided to go with the Docker setup.
-Since I fairly recently refreshed my install for Pop, I realized I didn&rsquo;t have Docker installed on my machine anymore.
-        
-          <div class="post-content__read-more">
-            <a href="/blog/open-webui/">Read more &gt;</a>
-          </div>
-        
-      
-    </div>
-  </article>
+      <h1 id="using-open-webui">Using open-webui<a href="#using-open-webui" class="post-heading__anchor" aria-hidden="true">#</a>
+</h1>
+<p>I set up a local LLM using ROCm on my desktop in my last post. So I have the LLM running locally, but its pretty clunky and as a paying user of ChatGPT, I want that cleaner UI/UX. Enter <a
+  href="https://github.com/open-webui/open-webui"
+  
+  
+    class="link--external" target="_blank" rel="noreferrer"
+  
+>open-webui</a>. This is exactly what I was looking for as a front-end for the ollama server I set up.</p>
+<p>I decided to go with the Docker setup.</p>
+<p>Since I fairly recently refreshed my install for Pop, I realized I didn&rsquo;t have Docker installed on my machine anymore. Setting up Docker on Pop is straightforward:</p>
+<h3 id="install-docker">Install Docker<a href="#install-docker" class="post-heading__anchor" aria-hidden="true">#</a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Add Docker&#39;s official GPG key:</span>
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m <span style="color:#ae81ff">0755</span> -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
 
-  <article class="post">
-    <div class="post-header">
-      <h2>
-        <a href="/blog/rocm-on-pop/">Running an LLM locally on Pop!_OS with ROCm support</a>
-      </h2>
-      <div class="post-meta"><span>2024-08-21</span>
+<span style="color:#75715e"># Add the repository to Apt sources:</span>
+echo <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  <span style="color:#e6db74">&#34;deb [arch=</span><span style="color:#66d9ef">$(</span>dpkg --print-architecture<span style="color:#66d9ef">)</span><span style="color:#e6db74"> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+</span><span style="color:#e6db74">  </span><span style="color:#66d9ef">$(</span>. /etc/os-release <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;</span>$VERSION_CODENAME<span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74"> stable&#34;</span> | <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+sudo apt-get update
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+</code></pre></div><p>You can check that Docker is installed by running <code>docker --version</code>. I prefer Docker Compose when I run containers.</p>
+<h3 id="docker-compose-configuration">Docker Compose Configuration<a href="#docker-compose-configuration" class="post-heading__anchor" aria-hidden="true">#</a>
+</h3>
+<p>This is what my compose file looks like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#f92672">version</span>: <span style="color:#e6db74">&#39;3.8&#39;</span>  <span style="color:#75715e"># Specify the version of Docker Compose</span>
+
+<span style="color:#f92672">services</span>:
+  <span style="color:#f92672">open-webui</span>:
+    <span style="color:#f92672">image</span>: <span style="color:#ae81ff">ghcr.io/open-webui/open-webui:main</span>
+    <span style="color:#f92672">container_name</span>: <span style="color:#ae81ff">open-webui</span>
+    <span style="color:#f92672">environment</span>:
+      - <span style="color:#ae81ff">OLLAMA_BASE_URL=http://127.0.0.1:11434</span>
+    <span style="color:#f92672">volumes</span>:
+      - <span style="color:#ae81ff">/location/on/host/tosavedata:/app/backend/data</span>
+    <span style="color:#f92672">network_mode</span>: <span style="color:#ae81ff">host</span>
+    <span style="color:#f92672">restart</span>: <span style="color:#ae81ff">always</span>
+</code></pre></div><p>At this point, when you go to <code>localhost:8080</code> you will see the web front end.</p>
+<h3 id="the-interface">The Interface<a href="#the-interface" class="post-heading__anchor" aria-hidden="true">#</a>
+</h3>
+<p>The service makes you create an account. Its all local. Nothing is sent anywhere. There is a flag you can set when you spin up your docker container, but I decided to leave it this way since I may eventually set this up so my wife can use it too.</p>
+<p>
+
+
 
   
-</div>
-
-    </div>
-
-    <div class="post-content">
-      
-        Running ROCm on Pop!#  This has gotten sooo much easier than when I tried to set this up 2 years ago. ROCm has come a long way, but the support and tooling has advanced as well. Now you don&rsquo;t have to jump through tons of hoops to get AI libraries and software to work with ROCm. The last time I tried this, I needed to add ubuntu repos, edit my /etc/os-release file to pretend I was using ubuntu&quot;, and do a rain-dance to get my Raedeon 6900xt in a usable state.
-        
-          <div class="post-content__read-more">
-            <a href="/blog/rocm-on-pop/">Read more &gt;</a>
-          </div>
-        
-      
-    </div>
-  </article>
-
-  <article class="post">
-    <div class="post-header">
-      <h2>
-        <a href="/recipes/stuffed-peppers/">Stuffed Peppers</a>
-      </h2>
-      <div class="post-meta"><span>2024-02-17</span>
-
   
-</div>
-
-    </div>
-
-    <div class="post-content">
-      
-        Ingredients#  - 3 bell peppers - 2 Tbsp cooking oil, divided - 1 lb Italian sausage - 1 yellow onion, diced - 3 garlic cloves, minced - 1 tsp Italian seasoning - 1/2 tsp garlic powder - 1 1/4 tsp salt, divided - 1/4 tsp freshly cracked black pepper - 1 cup marinara sauce - 1/2 cup uncooked long grain white rice - 3/4 cup chicken broth - 1 cup shredded mozzarella Instructions#   Preheat the oven to 350°F.
-        
-          <div class="post-content__read-more">
-            <a href="/recipes/stuffed-peppers/">Read more &gt;</a>
-          </div>
-        
-      
-    </div>
-  </article>
-
-  <article class="post">
-    <div class="post-header">
-      <h2>
-        <a href="/blog/migration-pt2/">Migration Pt2</a>
-      </h2>
-      <div class="post-meta"><span>2023-12-02</span>
-
   
-</div>
-
-    </div>
-
-    <div class="post-content">
-      
-        Updating DNS Records#  This was a fairly straightforward process:
- Log into GitHub &gt; Go to your public repo &gt; Settings &gt; Pages: and enter your domain in the Custom Domain section    Add your domain name www.wesgould.com Log into your DNS provider.  Delete CNAME / A-RECORDs for www.wesgould.com and wesgould.com to avoid conflicts with the new records. ADD CNAME RECORD for www.wesgould.com. Add A-RECORD for wesgould.
-        
-          <div class="post-content__read-more">
-            <a href="/blog/migration-pt2/">Read more &gt;</a>
-          </div>
-        
-      
-    </div>
-  </article>
-
-  <article class="post">
-    <div class="post-header">
-      <h2>
-        <a href="/recipes/homebakes/">Homebakes</a>
-      </h2>
-      <div class="post-meta"><span>2023-11-29</span>
-
   
-</div>
-
-    </div>
-
-    <div class="post-content">
-      
-        Home Bakes#  Family recipe from Oma passed down.
-Ingredients:#  2 cups Sugar 4 Tbls. Cocoa 1 stick Butter ½ cup Milk ½ cup Peanut Butter 2 ½ cups 1 Minute Oatmeal Directions:#  1. Lay down two strips of waxed paper. (Foil can also be used in a pinch.)
-2. In a large saucepan, combine sugar and cocoa. Stir until well blended.
-3. Add milk and stir. Then add a stick of butter.
-        
-          <div class="post-content__read-more">
-            <a href="/recipes/homebakes/">Read more &gt;</a>
-          </div>
-        
-      
-    </div>
-  </article>
-
-  <article class="post">
-    <div class="post-header">
-      <h2>
-        <a href="/blog/migrating-to-hugo/">Migrating to Hugo</a>
-      </h2>
-      <div class="post-meta"><span>2023-11-24</span>
-
-  
-    
-    
-    
-
-
-
   
   
     
     
+    
+    
+    
+    
+      
+    
+    
+
+    
+    
+    
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+    
+      
+        
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+
+
+    <picture>
+      <source
+        type="image/webp"
+        srcset="/blog/open-webui/image_1_hu91c3a15e81b83a72d21ddd0ac9a32d32_36022_300x0_resize_q75_h2_box_3.webp 300w,/blog/open-webui/image_1_hu91c3a15e81b83a72d21ddd0ac9a32d32_36022_500x0_resize_q75_h2_box_3.webp 500w,/blog/open-webui/image_1_hu91c3a15e81b83a72d21ddd0ac9a32d32_36022_598x0_resize_q75_h2_box_3.webp 598w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,598px"
+      />
+      <img
+        src="/blog/open-webui/image_1.png"
+        srcset="/blog/open-webui/image_1_hu91c3a15e81b83a72d21ddd0ac9a32d32_36022_300x0_resize_box_3.png 300w,/blog/open-webui/image_1_hu91c3a15e81b83a72d21ddd0ac9a32d32_36022_500x0_resize_box_3.png 500w,/blog/open-webui/image_1_hu91c3a15e81b83a72d21ddd0ac9a32d32_36022_598x0_resize_box_3.png 598w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,598px"
+        alt="Login Prompt"
+        
+        loading="lazy"
+        width="598"
+        height="719"
+      />
+    </picture>
+  
+
+
+
+
+
+
+</p>
+<p>The interface is very familiar if you&rsquo;ve used ChatGPT before. Up at the top you can select your model to use. Its worth setting a default. It doesn&rsquo;t make you set a default, but it gets pretty annoying to open a new chat and have to manually pick a model each time. In my opinion, they should have it select a default on first use, but its not a huge deal at the end of the day.</p>
+<p>
+
+
+
+  
   
   
   
@@ -550,18 +558,18 @@ Ingredients:#  2 cups Sugar 4 Tbls. Cocoa 1 stick Butter ½ cup Milk ½ cup Pean
     <picture>
       <source
         type="image/webp"
-        srcset="/blog/migrating-to-hugo/hugo-logo_hud0a23bf69c21589977c363dac5803e96_54372_300x0_resize_q75_h2_box_3.webp 300w,/blog/migrating-to-hugo/hugo-logo_hud0a23bf69c21589977c363dac5803e96_54372_500x0_resize_q75_h2_box_3.webp 500w,/blog/migrating-to-hugo/hugo-logo_hud0a23bf69c21589977c363dac5803e96_54372_700x0_resize_q75_h2_box_3.webp 700w"
+        srcset="/blog/open-webui/image_2_huf27a3a3f78f61d0e7b0ddf9bf2888029_203426_300x0_resize_q75_h2_box_3.webp 300w,/blog/open-webui/image_2_huf27a3a3f78f61d0e7b0ddf9bf2888029_203426_500x0_resize_q75_h2_box_3.webp 500w,/blog/open-webui/image_2_huf27a3a3f78f61d0e7b0ddf9bf2888029_203426_700x0_resize_q75_h2_box_3.webp 700w"
         sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
       />
       <img
-        src="/blog/migrating-to-hugo/hugo-logo.png"
-        srcset="/blog/migrating-to-hugo/hugo-logo_hud0a23bf69c21589977c363dac5803e96_54372_300x0_resize_box_3.png 300w,/blog/migrating-to-hugo/hugo-logo_hud0a23bf69c21589977c363dac5803e96_54372_500x0_resize_box_3.png 500w,/blog/migrating-to-hugo/hugo-logo_hud0a23bf69c21589977c363dac5803e96_54372_700x0_resize_box_3.png 700w"
+        src="/blog/open-webui/image_2.png"
+        srcset="/blog/open-webui/image_2_huf27a3a3f78f61d0e7b0ddf9bf2888029_203426_300x0_resize_box_3.png 300w,/blog/open-webui/image_2_huf27a3a3f78f61d0e7b0ddf9bf2888029_203426_500x0_resize_box_3.png 500w,/blog/open-webui/image_2_huf27a3a3f78f61d0e7b0ddf9bf2888029_203426_700x0_resize_box_3.png 700w"
         sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
-        alt=""
+        alt="image 2"
         
         loading="lazy"
-        width="1244"
-        height="428"
+        width="1485"
+        height="1063"
       />
     </picture>
   
@@ -571,138 +579,16 @@ Ingredients:#  2 cups Sugar 4 Tbls. Cocoa 1 stick Butter ½ cup Milk ½ cup Pean
 
 
 
-  
-</div>
+</p>
+<p>And that&rsquo;s really it. Now you have a ChatGPT like UX that lets you quickly switch between models, remembers your chats if you need to go back and reference them, and its all running locally.</p>
+<p>I plan on running LM Studio as well. Its a little more conducive to &lsquo;playing&rsquo; with the models and prompts and it gives easier access to a lot of the uncensored models that don&rsquo;t have the nanny protections built in. I also plan on setting up a RAG (Retrieval Augmented Generation)with some of my own data to see how useful I can make all of this.</p>
 
     </div>
 
-    <div class="post-content">
-      
-        It&rsquo;s been an&hellip;adventure.
-Why Switch from Publii to Hugo?#  I am switching from Publii to Hugo because I wanted to take advantage of the text notes I was already taking with Vimwiki for my various projects. The Publii interface was nice, but I&rsquo;m already writing notes in a format that doesn&rsquo;t require me to use their WYSIWYG editor. I know that seems lazy, but it&rsquo;s an extra step that caused just enough friction that I wouldn&rsquo;t update the blog.
-        
-          <div class="post-content__read-more">
-            <a href="/blog/migrating-to-hugo/">Read more &gt;</a>
-          </div>
-        
-      
-    </div>
+    
+
+    
   </article>
-
-  <article class="post">
-    <div class="post-header">
-      <h2>
-        <a href="/projects/creating-nfs-shares/">Creating NFS Shares</a>
-      </h2>
-      <div class="post-meta"><span>2023-11-22</span>
-
-  
-</div>
-
-    </div>
-
-    <div class="post-content">
-      
-        Creating an NFS share#  If you are trying to share between *nix systems, the Network File Servers (NFS) are really easy to set up. Note: If you are planning on sharing with Windows machines, SMB/Samba is a better option.
-It should also be noted that NFS doesn&rsquo;t restrict, by default, to individual users. It limits to IPs and IP ranges&ndash;which makes it ideal for secure networks, but less-than-ideal for non-secure / public networks.
-        
-          <div class="post-content__read-more">
-            <a href="/projects/creating-nfs-shares/">Read more &gt;</a>
-          </div>
-        
-      
-    </div>
-  </article>
-
-  <article class="post">
-    <div class="post-header">
-      <h2>
-        <a href="/recipes/enchilada-casserole/">Enchilada Casserole</a>
-      </h2>
-      <div class="post-meta"><span>2023-11-22</span>
-
-  
-</div>
-
-    </div>
-
-    <div class="post-content">
-      
-        One of Mom’s favorite recipes from Kris H. &amp; Robin K.
-Ingredients#  2 cups Grated Cheddar Cheese
-½ cup Finely Chopped Green Onion
-2 cans Cream of Chicken Soup
-1 cup Sour Cream
-1 can  Chopped Green Chilies*. these come in very small can in Mexican Food section of grocery store. DO NOT GET FIREROASTED The cans are almost identical but the taste is not.
-½ tsp. Salt
-        
-          <div class="post-content__read-more">
-            <a href="/recipes/enchilada-casserole/">Read more &gt;</a>
-          </div>
-        
-      
-    </div>
-  </article>
-
-  <article class="post">
-    <div class="post-header">
-      <h2>
-        <a href="/recipes/cincinatti-chili/">Cincinatti Chili</a>
-      </h2>
-      <div class="post-meta"><span>2023-11-22</span>
-
-  
-</div>
-
-    </div>
-
-    <div class="post-content">
-      
-        Ingredients List#  For the chili:
-2 pounds ground beef (80:20 is good; 90:10 works as well and will obviously be less fatty) 1 6-ounce can tomato paste 4 cups water 1 (8-ounce) can tomato sauce 1 large onion, minced 6 cloves garlic, minced (pre-minced in the jar is fine) 3 tablespoons chili powder 1 teaspoon cumin 1 teaspoon cinnamon 3/4 teaspoon ground allspice 1/4 teaspoon ground cloves 1/2 teaspoon cayenne 2 teaspoons kosher salt 2 tablespoons Worcestershire sauce  TIP: Measure all of your ingredients first.
-        
-          <div class="post-content__read-more">
-            <a href="/recipes/cincinatti-chili/">Read more &gt;</a>
-          </div>
-        
-      
-    </div>
-  </article>
-
-  <article class="post">
-    <div class="post-header">
-      <h2>
-        <a href="/blog/turkey-trot-2019/">Turkey Trot 2019</a>
-      </h2>
-      <div class="post-meta"><span>2019-11-28</span>
-
-  
-</div>
-
-    </div>
-
-    <div class="post-content">
-      
-        Turkey Trot 2k19#  Date: November 28, 2019
-The family decided to go to a Turkey Trot before we ate Thanksgiving dinner. I bet my niece $1 that I would run it in under 40 minutes. I got &lt; 33 minutes (unofficially—the times aren&rsquo;t posted yet).
-About 900 people signed up for this particular 5k!
-The 2nd prize was a huge pie (and a $50 Dick&rsquo;s gift card, but you can&rsquo;t eat that so it&rsquo;s less important).
-        
-          <div class="post-content__read-more">
-            <a href="/blog/turkey-trot-2019/">Read more &gt;</a>
-          </div>
-        
-      
-    </div>
-  </article>
-
-
-<div class="pagination">
-  
-  
-</div>
-
-
 
         </div>
         <div class="sidebar">
