@@ -4,7 +4,9 @@
     <title>Series on wesgould.com</title>
     <link>https://wesgould.github.io/series/</link>
     <description>Recent content in Series on wesgould.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2003</copyright><atom:link href="https://wesgould.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2003</copyright>
+    <atom:link href="https://wesgould.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
