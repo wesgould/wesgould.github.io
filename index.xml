@@ -24,6 +24,13 @@
       <description>&lt;h2 id=&#34;running-rocm-on-pop&#34;&gt;Running ROCm on Pop!&lt;a href=&#34;#running-rocm-on-pop&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This has gotten sooo much easier than when I tried to set this up 2 years ago. ROCm has come a long way, but the support&#xA;and tooling has advanced as well. Now you don&amp;rsquo;t have to jump through tons of hoops to get AI libraries and software to&#xA;work with ROCm. The last time I tried this, I needed to add ubuntu repos, edit my &lt;code&gt;/etc/os-release&lt;/code&gt; file to pretend I was&#xA;using ubuntu&amp;quot;, and do a rain-dance to get my Raedeon 6900xt in a usable state.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Pop Refresh</title>
+      <link>https://wesgould.github.io/blog/pop-refresh/</link>
+      <pubDate>Sun, 18 Feb 2024 18:53:21 -0500</pubDate>
+      <guid>https://wesgould.github.io/blog/pop-refresh/</guid>
+      <description>&lt;h1 id=&#34;pulled-the-trigger-on-a-pop_os-refresh&#34;&gt;Pulled the trigger on a Pop_OS refresh&lt;a href=&#34;#pulled-the-trigger-on-a-pop_os-refresh&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been having an issue with Apex Legends. It&amp;rsquo;s gotten progressively worse of the last few months to the point where it just doesn&amp;rsquo;t work anymore. Thats the story for another blog post but I decided to go &amp;ldquo;nuclear&amp;rdquo; and do a pop-refresh &lt;a&#xA;  href=&#34;https://support.system76.com/articles/pop-recovery&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;https://support.system76.com/articles/pop-recovery&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I figured it wouldn&amp;rsquo;t be a bad idea to clear out all of those config tweaks, orphaned programs, and all of that other stuff that, over years of use, builds up on your system.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Stuffed Peppers</title>
       <link>https://wesgould.github.io/recipes/stuffed-peppers/</link>
       <pubDate>Sat, 17 Feb 2024 15:26:34 -0500</pubDate>

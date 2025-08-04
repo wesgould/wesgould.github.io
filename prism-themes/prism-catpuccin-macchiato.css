@@ -1,0 +1,163 @@
+/**
+ * Catpuccin Macchiato theme for Prism.js
+ * Based on https://github.com/catppuccin/catppuccin
+ * @author Wes Gould
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #cad3f5; /* text */
+	background: none;
+	font-family: "Fira Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+	font-feature-settings: normal;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+	background: #363a4f; /* surface0 */
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #363a4f; /* surface0 */
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+	white-space: normal;
+}
+
+/* Syntax highlighting */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #6e738d; /* overlay0 */
+}
+
+.token.punctuation {
+	color: #939ab7; /* overlay2 */
+}
+
+.token.namespace {
+	opacity: 0.7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #ed8796; /* red */
+}
+
+.token.boolean,
+.token.number {
+	color: #fab387; /* peach */
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6da95; /* green */
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #8aadf4; /* blue */
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #eed49f; /* yellow */
+}
+
+.token.keyword {
+	color: #c6a0f6; /* mauve */
+}
+
+.token.regex,
+.token.important {
+	color: #f5a97f; /* peach */
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+/* Line highlighting */
+pre[class*="language-"].line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber;
+}
+
+pre[class*="language-"].line-numbers > code {
+	position: relative;
+	white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	font-size: 100%;
+	left: -3.8em;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #5b6078; /* surface2 */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+.line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #6e738d; /* overlay0 */
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}
