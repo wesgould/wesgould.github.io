@@ -1708,108 +1708,111 @@ h1:hover .post-heading__anchor, h2:hover .post-heading__anchor, h3:hover .post-h
 
 */
 
-/* Recipe Mode Toggle Styles */
+/* Recipe Mode Toggle Styles - Using Catppuccin Colors */
 
 .recipe-mode-toggle {
-  margin-top: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  margin-top: 1rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
 }
 
 .recipe-mode-label {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  cursor: pointer;
-  user-select: none;
-  font-size: 0.9rem;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  font-size: 0.9rem !important;
 }
 
 .recipe-mode-checkbox {
-  display: none;
+  display: none !important;
 }
 
 .recipe-mode-slider {
-  position: relative;
-  width: 3rem;
-  height: 1.5rem;
-  background-color: #ccc;
-  border-radius: 1.5rem;
-  transition: background-color 0.3s ease;
+  position: relative !important;
+  width: 3rem !important;
+  height: 1.5rem !important;
+  background-color: var(--bg3, #5b6078) !important;
+  border-radius: 1.5rem !important;
+  transition: background-color 0.3s ease !important;
+  flex-shrink: 0 !important;
 }
 
 .recipe-mode-slider::before {
-  content: '';
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 1.25rem;
-  height: 1.25rem;
-  background-color: white;
-  border-radius: 50%;
-  transition: transform 0.3s ease;
+  content: '' !important;
+  position: absolute !important;
+  top: 2px !important;
+  left: 2px !important;
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  background-color: var(--fg, white) !important;
+  border-radius: 50% !important;
+  transition: transform 0.3s ease !important;
 }
 
 .recipe-mode-checkbox:checked + .recipe-mode-slider {
-  background-color: #4CAF50;
+  background-color: var(--ctp-green, #a6da95) !important;
 }
 
 .recipe-mode-checkbox:checked + .recipe-mode-slider::before {
-  transform: translateX(1.5rem);
+  transform: translateX(1.5rem) !important;
 }
 
 .recipe-mode-text {
-  font-weight: 500;
-  color: var(--text-color, #333);
+  font-weight: 500 !important;
+  color: var(--fg, #cad3f5) !important;
+  white-space: nowrap !important;
 }
 
 /* Recipe Mode Active State */
 
-.recipe-mode-active {
-  position: relative;
-}
-
 .recipe-mode-active::before {
-  content: '🍳 Recipe Mode Active - Screen stays awake';
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  background-color: #4CAF50;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  font-size: 0.8rem;
-  z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  content: '🍳 Recipe Mode Active - Screen stays awake' !important;
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  background-color: var(--ctp-green, #a6da95) !important;
+  color: var(--bg0, #24273a) !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 0.5rem !important;
+  font-size: 0.8rem !important;
+  z-index: 1000 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  font-weight: 600 !important;
 }
 
-/* Dark mode support */
-
-[data-theme="dark"] .recipe-mode-text {
-  color: var(--text-color-dark, #e0e0e0);
-}
+/* Fallback styles for when variables are not available */
 
 [data-theme="dark"] .recipe-mode-slider {
-  background-color: #555;
+  background-color: #5b6078 !important;
+}
+
+[data-theme="dark"] .recipe-mode-checkbox:checked + .recipe-mode-slider {
+  background-color: #a6da95 !important;
+}
+
+[data-theme="dark"] .recipe-mode-text {
+  color: #cad3f5 !important;
 }
 
 /* Mobile responsiveness */
 
 @media (max-width: 768px) {
   .recipe-mode-toggle {
-    margin-top: 0.5rem;
+    margin-top: 0.5rem !important;
   }
   
   .recipe-mode-label {
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
   }
   
   .recipe-mode-active::before {
-    top: 0.5rem;
-    right: 0.5rem;
-    font-size: 0.7rem;
-    padding: 0.4rem 0.8rem;
+    top: 0.5rem !important;
+    right: 0.5rem !important;
+    font-size: 0.7rem !important;
+    padding: 0.4rem 0.8rem !important;
   }
 }
    

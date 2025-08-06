@@ -3151,36 +3151,87 @@
         constructor() {
           this.wakeLock = null;
           this.isRecipeModeActive = false;
+          this.toggleId = "recipe-mode-checkbox-" + Date.now();
           this.init();
         }
         init() {
-          if ("wakeLock" in navigator) {
+          setTimeout(() => {
             this.createToggleButton();
-          } else {
-            console.warn("Wake Lock API not supported in this browser");
-          }
+          }, 100);
         }
         createToggleButton() {
+          if (document.querySelector(".recipe-mode-toggle")) {
+            return;
+          }
           const toggleContainer = document.createElement("div");
           toggleContainer.className = "recipe-mode-toggle";
+          toggleContainer.style.cssText = `
+      margin-top: 1rem !important;
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+    `;
           toggleContainer.innerHTML = `
-      <label class="recipe-mode-label">
-        <input type="checkbox" id="recipe-mode-checkbox" class="recipe-mode-checkbox">
-        <span class="recipe-mode-slider"></span>
-        <span class="recipe-mode-text">Recipe Mode</span>
+      <label class="recipe-mode-label" style="display: flex !important; align-items: center !important; gap: 0.5rem !important; cursor: pointer !important; user-select: none !important; font-size: 0.9rem !important;">
+        <input type="checkbox" id="${this.toggleId}" class="recipe-mode-checkbox" style="display: none !important;">
+        <span class="recipe-mode-slider" style="
+          position: relative !important;
+          width: 3rem !important;
+          height: 1.5rem !important;
+          background-color: #5b6078 !important;
+          border-radius: 1.5rem !important;
+          transition: background-color 0.3s ease !important;
+          flex-shrink: 0 !important;
+        "></span>
+        <span class="recipe-mode-text" style="font-weight: 500 !important; color: #cad3f5 !important; white-space: nowrap !important;">Recipe Mode</span>
       </label>
     `;
           const postHeader = document.querySelector(".post-header");
           if (postHeader) {
             postHeader.appendChild(toggleContainer);
-            const checkbox = document.getElementById("recipe-mode-checkbox");
-            checkbox.addEventListener("change", (e) => {
-              if (e.target.checked) {
-                this.enableRecipeMode();
-              } else {
-                this.disableRecipeMode();
+            const style = document.createElement("style");
+            style.textContent = `
+        .recipe-mode-slider::before {
+          content: '' !important;
+          position: absolute !important;
+          top: 2px !important;
+          left: 2px !important;
+          width: 1.25rem !important;
+          height: 1.25rem !important;
+          background-color: white !important;
+          border-radius: 50% !important;
+          transition: transform 0.3s ease !important;
+        }
+        .recipe-mode-checkbox:checked + .recipe-mode-slider {
+          background-color: #a6da95 !important;
+        }
+        .recipe-mode-checkbox:checked + .recipe-mode-slider::before {
+          transform: translateX(1.5rem) !important;
+        }
+      `;
+            document.head.appendChild(style);
+            const checkbox = document.getElementById(this.toggleId);
+            const slider = toggleContainer.querySelector(".recipe-mode-slider");
+            if (checkbox && slider) {
+              checkbox.addEventListener("change", (e) => {
+                const isChecked = e.target.checked;
+                if (isChecked) {
+                  slider.style.backgroundColor = "#a6da95";
+                  this.enableRecipeMode();
+                } else {
+                  slider.style.backgroundColor = "#5b6078";
+                  this.disableRecipeMode();
+                }
+              });
+              if (!("wakeLock" in navigator)) {
+                const textSpan = toggleContainer.querySelector(".recipe-mode-text");
+                textSpan.textContent = "Recipe Mode (Not Supported)";
+                textSpan.style.opacity = "0.6";
               }
-            });
+            }
+            console.log("Recipe Mode toggle created successfully");
+          } else {
+            console.error("Could not find .post-header element");
           }
         }
         enableRecipeMode() {
