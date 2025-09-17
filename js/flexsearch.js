@@ -893,6 +893,22 @@
     index.add(
       {
         id: 0,
+        href: "/recipes/roasted-tomato-burrata-dip/",
+        title: "Roasted Tomato Burrata Dip with Garlic Bread Crostinis",
+        description: "Stoney made this during his night to cook during the OBX trip in 2025. Ripe bursted cherry tomatoes, stir in burrata or stracciatella, and scoop it all up with crispy garlic crostinis.\nIngredients# # For the Dip Cherry tomatoes Olive oil Salt, pepper, red pepper flakes Garlic, parsley, oregano Burrata or stracciatella (burrata filling) Fresh basil Parmesan # For the Garlic Bread Crostinis French baguette Butter Garlic Salt Parmesan Parsley Instructions# Roast the tomatoes. Add grape tomatoes to a baking dish and drizzle generously with olive oil (enough to coat the bottom of your dish).\n",
+        content: "Stoney made this during his night to cook during the OBX trip in 2025. Ripe bursted cherry tomatoes, stir in burrata or stracciatella, and scoop it all up with crispy garlic crostinis.\nIngredients# # For the Dip Cherry tomatoes Olive oil Salt, pepper, red pepper flakes Garlic, parsley, oregano Burrata or stracciatella (burrata filling) Fresh basil Parmesan # For the Garlic Bread Crostinis French baguette Butter Garlic Salt Parmesan Parsley Instructions# Roast the tomatoes. Add grape tomatoes to a baking dish and drizzle generously with olive oil (enough to coat the bottom of your dish).\nSeason and bake. Season with salt, pepper, red pepper flakes, garlic, parsley, and oregano. Bake at 425\xB0F for 20-30 mins until tomatoes burst (you can gently smash them halfway if they need some assistance in the &lsquo;bursting&rsquo; process).\nPrepare the crostinis. While that bakes, slice a French bread baguette, spread with garlic butter (butter, garlic, salt, parsley, parm), and toast 5\u20137 mins until golden.\nFinish and serve. Once you&rsquo;re ready to serve, top with parm, fresh basil, and burrata. Stir it all together and serve HOT.\nDip. Scoop. Repeat. This one is next level tasty definitely a heavy appetizer, perfect to bring to a party or to serve at your next gathering.\n"
+      }
+    ).add(
+      {
+        id: 1,
+        href: "/blog/shortcode-examples/",
+        title: "Shortcode Examples",
+        description: "Testing the new shortcodes implementation",
+        content: "Shortcode Examples# This page demonstrates the newly implemented shortcodes.\nAdmonition Shortcodes# Note# Important Note This is a note admonition. It&rsquo;s useful for highlighting important information that readers should pay attention to. Info# Information This is an info admonition. Use this for general information that provides context or additional details. Tip# Pro Tip This is a tip admonition. Share helpful tips and tricks with your readers using this style. Success# Great Success This is a success admonition. Use this to highlight positive outcomes or successful implementations. Warning# Warning This is a warning admonition. Use this to alert readers about potential issues or things to be careful about. Error# Error This is an error admonition. Use this to highlight critical issues or problems that need attention. Example# Example Usage This is an example admonition. Use this to showcase code examples or demonstrate concepts.\necho &#34;Hello, World!&#34; Center Quote# The best way to predict the future is to invent it. Mermaid Diagrams# Flowchart# graph LR; A[Hard edge] -->|Link text| B(Round edge) B --> C{Decision} C -->|One| D[Result one] C -->|Two| E[Result two] Sequence Diagram# sequenceDiagram participant Alice participant Bob Alice->>John: Hello John, how are you? loop Healthcheck John->>John: Fight against hypochondria end Note right of John: Rational thoughts prevail! John-->>Alice: Great! John->>Bob: How about you? Bob-->>John: Jolly good! State Diagram# stateDiagram-v2 [*] --> Still Still --> [*] Still --> Moving Moving --> Still Moving --> Crash Crash --> [*] Class Diagram# classDiagram Animal <|-- Duck Animal <|-- Fish Animal <|-- Zebra Animal : +int age Animal : +String gender Animal: +isMammal() Animal: +mate() class Duck{ +String beakColor +swim() +quack() } class Fish{ -int sizeInFeet -canEat() } class Zebra{ +bool is_wild +run() } "
+      }
+    ).add(
+      {
+        id: 2,
         href: "/blog/open-webui/",
         title: "Using open-webui as a local ChatGPT replacement",
         description: "Using open-webui# I set up a local LLM using ROCm on my desktop in my last post. So I have the LLM running locally, but its pretty clunky and as a paying user of ChatGPT, I want that cleaner UI/UX. Enter open-webui. This is exactly what I was looking for as a front-end for the ollama server I set up.\nI decided to go with the Docker setup.\n",
@@ -900,7 +916,7 @@
       }
     ).add(
       {
-        id: 1,
+        id: 3,
         href: "/blog/rocm-on-pop/",
         title: "Running an LLM locally on Pop!_OS with ROCm support",
         description: "Running ROCm on Pop!# This has gotten sooo much easier than when I tried to set this up 2 years ago. ROCm has come a long way, but the support and tooling has advanced as well. Now you don&rsquo;t have to jump through tons of hoops to get AI libraries and software to work with ROCm. The last time I tried this, I needed to add ubuntu repos, edit my /etc/os-release file to pretend I was using ubuntu&quot;, and do a rain-dance to get my Raedeon 6900xt in a usable state.\n",
@@ -908,7 +924,7 @@
       }
     ).add(
       {
-        id: 2,
+        id: 4,
         href: "/blog/pop-refresh/",
         title: "Pop Refresh",
         description: "Pulled the trigger on a Pop_OS refresh# I&rsquo;ve been having an issue with Apex Legends. It&rsquo;s gotten progressively worse of the last few months to the point where it just doesn&rsquo;t work anymore. Thats the story for another blog post but I decided to go &ldquo;nuclear&rdquo; and do a pop-refresh https://support.system76.com/articles/pop-recovery\nI figured it wouldn&rsquo;t be a bad idea to clear out all of those config tweaks, orphaned programs, and all of that other stuff that, over years of use, builds up on your system.\n",
@@ -916,15 +932,15 @@
       }
     ).add(
       {
-        id: 3,
+        id: 5,
         href: "/recipes/stuffed-peppers/",
         title: "Stuffed Peppers",
-        description: "Ingredients# - 3 bell peppers - 2 Tbsp cooking oil, divided - 1 lb Italian sausage - 1 yellow onion, diced - 3 garlic cloves, minced - 1 tsp Italian seasoning - 1/2 tsp garlic powder - 1 1/4 tsp salt, divided - 1/4 tsp freshly cracked black pepper - 1 cup marinara sauce - 1/2 cup uncooked long grain white rice - 3/4 cup chicken broth - 1 cup shredded mozzarella Instructions# Preheat the oven to 350\xB0F. Wash and dry each bell pepper, then cut the bell peppers in half horizontally. Make sure to cut them as evenly as possible. Using a sharp paring knife carefully cut and remove the stem from the top half of each bell pepper (see picture below). It&rsquo;s okay if there is a small hole left where the stem was removed. Prepare the bell peppers. Place each bell pepper half in a 9\xD713-inch casserole dish. Brush the bell peppers with 1 Tbsp oil and season with \xBC tsp of salt and \xBC tsp cracked black pepper. Bake the bell peppers in a preheated oven for 20 minutes to soften. After 20 minutes remove the bell peppers from the oven and set aside. Make the filling. While the bell peppers are baking, heat a large skillet over medium heat and add 1 Tbsp of oil. Brown the Italian sausage. Add the vegetables. Once the sausage has browned, add the diced onion and minced garlic to the skillet. Continue to saut\xE9 over medium heat until the onion is translucent and the garlic is fragrant. Combine remaining ingredients. Next add the uncooked rice, marinara sauce, Italian seasoning, garlic powder, 1 tsp of salt, and chicken broth to the skillet. Stir to combine. Cook the filling. Place a lid on the skillet, turn the heat up to medium-high, and allow the mixture to come to a full boil. Once boiling, immediately reduce the heat to medium-low and allow the mixture to simmer, without lifting the lid or stirring, for 20 minutes. After 20 minutes, turn the heat off and let it rest, without lifting the lid, for an additional 5 minutes. Fill the bell peppers. Next remove the lid, fluff the rice, and stir the mixture again to redistribute the ingredients. Begin to fill each bell pepper with the meat filling. Stuff as much filling as you can into each, filling them all the way to the top. Add cheese and bake. Top each bell pepper evenly with shredded mozzarella cheese. Loosely place some tented aluminum foil over the top of the casserole dish and bake for 15 minutes. After 15 minutes the bell peppers should be tender but not mushy. Broil the bell peppers. Now remove the foil and turn the heat on to broil. Broil the stuffed bell peppers for 2-3 minutes or just until the cheese gets a little brown on top. Be sure to watch the bell peppers closely at this step to prevent the cheese from over browning. ",
-        content: "Ingredients# - 3 bell peppers - 2 Tbsp cooking oil, divided - 1 lb Italian sausage - 1 yellow onion, diced - 3 garlic cloves, minced - 1 tsp Italian seasoning - 1/2 tsp garlic powder - 1 1/4 tsp salt, divided - 1/4 tsp freshly cracked black pepper - 1 cup marinara sauce - 1/2 cup uncooked long grain white rice - 3/4 cup chicken broth - 1 cup shredded mozzarella Instructions# Preheat the oven to 350\xB0F. Wash and dry each bell pepper, then cut the bell peppers in half horizontally. Make sure to cut them as evenly as possible. Using a sharp paring knife carefully cut and remove the stem from the top half of each bell pepper (see picture below). It&rsquo;s okay if there is a small hole left where the stem was removed. Prepare the bell peppers. Place each bell pepper half in a 9\xD713-inch casserole dish. Brush the bell peppers with 1 Tbsp oil and season with \xBC tsp of salt and \xBC tsp cracked black pepper. Bake the bell peppers in a preheated oven for 20 minutes to soften. After 20 minutes remove the bell peppers from the oven and set aside. Make the filling. While the bell peppers are baking, heat a large skillet over medium heat and add 1 Tbsp of oil. Brown the Italian sausage. Add the vegetables. Once the sausage has browned, add the diced onion and minced garlic to the skillet. Continue to saut\xE9 over medium heat until the onion is translucent and the garlic is fragrant. Combine remaining ingredients. Next add the uncooked rice, marinara sauce, Italian seasoning, garlic powder, 1 tsp of salt, and chicken broth to the skillet. Stir to combine. Cook the filling. Place a lid on the skillet, turn the heat up to medium-high, and allow the mixture to come to a full boil. Once boiling, immediately reduce the heat to medium-low and allow the mixture to simmer, without lifting the lid or stirring, for 20 minutes. After 20 minutes, turn the heat off and let it rest, without lifting the lid, for an additional 5 minutes. Fill the bell peppers. Next remove the lid, fluff the rice, and stir the mixture again to redistribute the ingredients. Begin to fill each bell pepper with the meat filling. Stuff as much filling as you can into each, filling them all the way to the top. Add cheese and bake. Top each bell pepper evenly with shredded mozzarella cheese. Loosely place some tented aluminum foil over the top of the casserole dish and bake for 15 minutes. After 15 minutes the bell peppers should be tender but not mushy. Broil the bell peppers. Now remove the foil and turn the heat on to broil. Broil the stuffed bell peppers for 2-3 minutes or just until the cheese gets a little brown on top. Be sure to watch the bell peppers closely at this step to prevent the cheese from over browning. "
+        description: "Ingredients# 3 bell peppers 2 Tbsp cooking oil, divided 1 lb Italian sausage 1 yellow onion, diced 3 garlic cloves, minced 1 tsp Italian seasoning 1/2 tsp garlic powder 1 1/4 tsp salt, divided 1/4 tsp freshly cracked black pepper 1 cup marinara sauce 1/2 cup uncooked long grain white rice 3/4 cup chicken broth 1 cup shredded mozzarella Instructions# Preheat the oven to 350\xB0F. Wash and dry each bell pepper, then cut the bell peppers in half horizontally. Make sure to cut them as evenly as possible. Using a sharp paring knife carefully cut and remove the stem from the top half of each bell pepper (see picture below). It&rsquo;s okay if there is a small hole left where the stem was removed. Prepare the bell peppers. Place each bell pepper half in a 9\xD713-inch casserole dish. Brush the bell peppers with 1 Tbsp oil and season with \xBC tsp of salt and \xBC tsp cracked black pepper. Bake the bell peppers in a preheated oven for 20 minutes to soften. After 20 minutes remove the bell peppers from the oven and set aside. Make the filling. While the bell peppers are baking, heat a large skillet over medium heat and add 1 Tbsp of oil. Brown the Italian sausage. Add the vegetables. Once the sausage has browned, add the diced onion and minced garlic to the skillet. Continue to saut\xE9 over medium heat until the onion is translucent and the garlic is fragrant. Combine remaining ingredients. Next add the uncooked rice, marinara sauce, Italian seasoning, garlic powder, 1 tsp of salt, and chicken broth to the skillet. Stir to combine. Cook the filling. Place a lid on the skillet, turn the heat up to medium-high, and allow the mixture to come to a full boil. Once boiling, immediately reduce the heat to medium-low and allow the mixture to simmer, without lifting the lid or stirring, for 20 minutes. After 20 minutes, turn the heat off and let it rest, without lifting the lid, for an additional 5 minutes. Fill the bell peppers. Next remove the lid, fluff the rice, and stir the mixture again to redistribute the ingredients. Begin to fill each bell pepper with the meat filling. Stuff as much filling as you can into each, filling them all the way to the top. Add cheese and bake. Top each bell pepper evenly with shredded mozzarella cheese. Loosely place some tented aluminum foil over the top of the casserole dish and bake for 15 minutes. After 15 minutes the bell peppers should be tender but not mushy. Broil the bell peppers. Now remove the foil and turn the heat on to broil. Broil the stuffed bell peppers for 2-3 minutes or just until the cheese gets a little brown on top. Be sure to watch the bell peppers closely at this step to prevent the cheese from over browning. ",
+        content: "Ingredients# 3 bell peppers 2 Tbsp cooking oil, divided 1 lb Italian sausage 1 yellow onion, diced 3 garlic cloves, minced 1 tsp Italian seasoning 1/2 tsp garlic powder 1 1/4 tsp salt, divided 1/4 tsp freshly cracked black pepper 1 cup marinara sauce 1/2 cup uncooked long grain white rice 3/4 cup chicken broth 1 cup shredded mozzarella Instructions# Preheat the oven to 350\xB0F. Wash and dry each bell pepper, then cut the bell peppers in half horizontally. Make sure to cut them as evenly as possible. Using a sharp paring knife carefully cut and remove the stem from the top half of each bell pepper (see picture below). It&rsquo;s okay if there is a small hole left where the stem was removed. Prepare the bell peppers. Place each bell pepper half in a 9\xD713-inch casserole dish. Brush the bell peppers with 1 Tbsp oil and season with \xBC tsp of salt and \xBC tsp cracked black pepper. Bake the bell peppers in a preheated oven for 20 minutes to soften. After 20 minutes remove the bell peppers from the oven and set aside. Make the filling. While the bell peppers are baking, heat a large skillet over medium heat and add 1 Tbsp of oil. Brown the Italian sausage. Add the vegetables. Once the sausage has browned, add the diced onion and minced garlic to the skillet. Continue to saut\xE9 over medium heat until the onion is translucent and the garlic is fragrant. Combine remaining ingredients. Next add the uncooked rice, marinara sauce, Italian seasoning, garlic powder, 1 tsp of salt, and chicken broth to the skillet. Stir to combine. Cook the filling. Place a lid on the skillet, turn the heat up to medium-high, and allow the mixture to come to a full boil. Once boiling, immediately reduce the heat to medium-low and allow the mixture to simmer, without lifting the lid or stirring, for 20 minutes. After 20 minutes, turn the heat off and let it rest, without lifting the lid, for an additional 5 minutes. Fill the bell peppers. Next remove the lid, fluff the rice, and stir the mixture again to redistribute the ingredients. Begin to fill each bell pepper with the meat filling. Stuff as much filling as you can into each, filling them all the way to the top. Add cheese and bake. Top each bell pepper evenly with shredded mozzarella cheese. Loosely place some tented aluminum foil over the top of the casserole dish and bake for 15 minutes. After 15 minutes the bell peppers should be tender but not mushy. Broil the bell peppers. Now remove the foil and turn the heat on to broil. Broil the stuffed bell peppers for 2-3 minutes or just until the cheese gets a little brown on top. Be sure to watch the bell peppers closely at this step to prevent the cheese from over browning. "
       }
     ).add(
       {
-        id: 4,
+        id: 6,
         href: "/blog/migration-pt2/",
         title: "Migration Pt2",
         description: "Updating DNS Records# This was a fairly straightforward process:\nLog into GitHub &gt; Go to your public repo &gt; Settings &gt; Pages: and enter your domain in the Custom Domain section Add your domain name www.wesgould.com Log into your DNS provider. Delete CNAME / A-RECORDs for www.wesgould.com and wesgould.com to avoid conflicts with the new records. ADD CNAME RECORD for www.wesgould.com. Add A-RECORD for wesgould.com. To create A records, point your apex domain to the IP addresses for GitHub Pages: - 185.199.108.153 - 185.199.109.153 - 185.199.110.153 - 185.199.111.153 To create AAAA records, point your apex domain to the IP addresses for GitHub Pages: - 2606:50c0:8000::153 - 2606:50c0:8001::153 - 2606:50c0:8002::153 - 2606:50c0:8003::153 Be impatient because &ldquo;it didn&rsquo;t work!&rdquo; (immediately). But it&rsquo;s DNS propagation and it&rsquo;s slow. I understand why it takes a while, and theoretically it could take days to fully propagate, but it also seems crazy that it&rsquo;s not instantaneous in 2023. That said, it probably took me longer to complain here than it did to propagate. Try accessing the site. GitHub may report an error at first under where you entered your custom domain, but check again, and it should work. wesgould.com is improperly configured Domain does not resolve to the GitHub Pages server. For more information, see documentation (NotServedByPagesError). Make sure you check the HTTPS box. Do one last terminal dig to see the changes like a nerd. Bug your wife and friends to see if they can get to your site. Pretend they are as excited as you are even though &ldquo;Okay now what&rdquo; is about all you&rsquo;ll get from them. That&rsquo;s an exact quote from my wife. ",
@@ -932,7 +948,7 @@
       }
     ).add(
       {
-        id: 5,
+        id: 7,
         href: "/recipes/homebakes/",
         title: "Homebakes",
         description: "Home Bakes# Family recipe from Oma passed down.\nIngredients:# 2 cups Sugar 4 Tbls. Cocoa 1 stick Butter \xBD cup Milk \xBD cup Peanut Butter 2 \xBD cups 1 Minute Oatmeal Directions:# 1. Lay down two strips of waxed paper. (Foil can also be used in a pinch.)\n2. In a large saucepan, combine sugar and cocoa. Stir until well blended.\n3. Add milk and stir. Then add a stick of butter.\n",
@@ -940,7 +956,7 @@
       }
     ).add(
       {
-        id: 6,
+        id: 8,
         href: "/blog/migrating-to-hugo/",
         title: "Migrating to Hugo",
         description: "It&rsquo;s been an&hellip;adventure.\nWhy Switch from Publii to Hugo?# I am switching from Publii to Hugo because I wanted to take advantage of the text notes I was already taking with Vimwiki for my various projects. The Publii interface was nice, but I&rsquo;m already writing notes in a format that doesn&rsquo;t require me to use their WYSIWYG editor. I know that seems lazy, but it&rsquo;s an extra step that caused just enough friction that I wouldn&rsquo;t update the blog.\n",
@@ -948,7 +964,7 @@
       }
     ).add(
       {
-        id: 7,
+        id: 9,
         href: "/projects/creating-nfs-shares/",
         title: "Creating NFS Shares",
         description: "Creating an NFS share# If you are trying to share between *nix systems, the Network File Servers (NFS) are really easy to set up. Note: If you are planning on sharing with Windows machines, SMB/Samba is a better option.\nIt should also be noted that NFS doesn&rsquo;t restrict, by default, to individual users. It limits to IPs and IP ranges&ndash;which makes it ideal for secure networks, but less-than-ideal for non-secure / public networks.\n",
@@ -956,15 +972,15 @@
       }
     ).add(
       {
-        id: 8,
+        id: 10,
         href: "/recipes/enchilada-casserole/",
         title: "Enchilada Casserole",
-        description: "One of Mom\u2019s favorite recipes from Kris H. &amp; Robin K.\nIngredients# 2 cups Grated Cheddar Cheese\n\xBD cup Finely Chopped Green Onion\n2 cans Cream of Chicken Soup\n1 cup Sour Cream\n1 can Chopped Green Chilies*. these come in very small can in Mexican Food section of grocery store. DO NOT GET FIREROASTED The cans are almost identical but the taste is not.\n\xBD tsp. Salt\n",
-        content: "One of Mom\u2019s favorite recipes from Kris H. &amp; Robin K.\nIngredients# 2 cups Grated Cheddar Cheese\n\xBD cup Finely Chopped Green Onion\n2 cans Cream of Chicken Soup\n1 cup Sour Cream\n1 can Chopped Green Chilies*. these come in very small can in Mexican Food section of grocery store. DO NOT GET FIREROASTED The cans are almost identical but the taste is not.\n\xBD tsp. Salt\n2 cans Chicken, all white meat OR 4 Chicken Breasts, cooked1 and chopped\n12 Corn (not flour) tortillas, hand shredded\nDirections# Preheat oven to 350 degrees. Mix in a large sauce pan the chopped cooked chicken breasts, cream of chicken soup, sour cream, and green chilies. Stir until blended over low heat. Remove from heat and add cheddar cheese, green onion, and tortillas. Add salt and pepper to taste. Place all ingredients in a 9\u201D X 13\u201D casserole dish and top lightly with grated cheese. Bake for 20 to 30 minutes at 350 degrees until bubbling. Good served alone or with Tostitos.\ncook raw chicken breasts by placing in a sauce pan, just cover with water, and bring to boil. Turn heat to low and simmer for 30 minutes to 1 hour until no pink in center. Remove chicken, cool, and chop into bite sized pieces.&#160;&#x21a9;&#xfe0e;\n"
+        description: "One of Mom\u2019s favorite recipes from Kris H. &amp; Robin K.\nIngredients# 2 cups grated cheddar cheese 1/2 cup finely chopped green onion 2 cans cream of chicken soup 1 cup sour cream 1 can chopped green chilies 1/2 tsp salt 2 cans chicken (all white meat) OR 4 chicken breasts, cooked and chopped 12 corn tortillas, hand shredded Important Ingredient Note Use Chopped Green Chilies from the Mexican Food section - these come in very small cans. DO NOT GET FIRE-ROASTED versions! The cans look almost identical but the taste is completely different. Chicken Cooking Tip Cook raw chicken breasts by placing in a sauce pan, just cover with water, and bring to boil. Turn heat to low and simmer for 30 minutes to 1 hour until no pink remains in center. Remove chicken, cool, and chop into bite-sized pieces. This keeps the meat tender and moist. Instructions# Preheat oven to 350\xB0F.\n",
+        content: "One of Mom\u2019s favorite recipes from Kris H. &amp; Robin K.\nIngredients# 2 cups grated cheddar cheese 1/2 cup finely chopped green onion 2 cans cream of chicken soup 1 cup sour cream 1 can chopped green chilies 1/2 tsp salt 2 cans chicken (all white meat) OR 4 chicken breasts, cooked and chopped 12 corn tortillas, hand shredded Important Ingredient Note Use Chopped Green Chilies from the Mexican Food section - these come in very small cans. DO NOT GET FIRE-ROASTED versions! The cans look almost identical but the taste is completely different. Chicken Cooking Tip Cook raw chicken breasts by placing in a sauce pan, just cover with water, and bring to boil. Turn heat to low and simmer for 30 minutes to 1 hour until no pink remains in center. Remove chicken, cool, and chop into bite-sized pieces. This keeps the meat tender and moist. Instructions# Preheat oven to 350\xB0F.\nPrepare the filling. Mix in a large sauce pan the chopped cooked chicken breasts, cream of chicken soup, sour cream, and green chilies. Stir until blended over low heat.\nCombine ingredients. Remove from heat and add cheddar cheese, green onion, and tortillas. Add salt and pepper to taste.\nAssemble casserole. Place all ingredients in a 9&quot; x 13&quot; casserole dish and top lightly with grated cheese.\nBake the casserole. Bake for 20 to 30 minutes at 350\xB0F until bubbling.\nServing Suggestion This casserole is delicious on its own or served with Tostitos for extra crunch! "
       }
     ).add(
       {
-        id: 9,
+        id: 11,
         href: "/recipes/cincinatti-chili/",
         title: "Cincinatti Chili",
         description: "Ingredients List# For the chili:\n2 pounds ground beef (80:20 is good; 90:10 works as well and will obviously be less fatty) 1 6-ounce can tomato paste 4 cups water 1 (8-ounce) can tomato sauce 1 large onion, minced 6 cloves garlic, minced (pre-minced in the jar is fine) 3 tablespoons chili powder 1 teaspoon cumin 1 teaspoon cinnamon 3/4 teaspoon ground allspice 1/4 teaspoon ground cloves 1/2 teaspoon cayenne 2 teaspoons kosher salt 2 tablespoons Worcestershire sauce TIP: Measure all of your ingredients first. I usually set all of the spices on my left with a small bowl in front of me. As I measure and put each ingredient into the bowl, I move the spice bottle to the right side so I know I&rsquo;ve added it. It&rsquo;s really easy to forget which spices you&rsquo;ve measured out!\n",
@@ -972,7 +988,7 @@
       }
     ).add(
       {
-        id: 10,
+        id: 12,
         href: "/blog/embed-video-files/",
         title: "Embed Video Files",
         description: "Use the video shortcode to embed your video files from Hugo Page Resources.\n",
@@ -980,7 +996,7 @@
       }
     ).add(
       {
-        id: 11,
+        id: 13,
         href: "/blog/image-optimization/",
         title: "Image Optimization",
         description: "The theme optimizes images by default with a custom Hugo&rsquo;s markdown render hook:\nThe theme creates resized versions for each image, ranging from 100 to 700 pixels wide. It generates WebP versions for each size if the original image format isn&rsquo;t WebP. The theme keeps the original file format as a fallback for browsers that don&rsquo;t support the WebP format. Images in SVG format are embedded as-is. Blog Post Cover Images# Use the front matter of your posts to add cover images:\n",
@@ -988,7 +1004,7 @@
       }
     ).add(
       {
-        id: 12,
+        id: 14,
         href: "/blog/turkey-trot-2019/",
         title: "Turkey Trot 2019",
         description: "Turkey Trot 2k19# Date: November 28, 2019\nThe family decided to go to a Turkey Trot before we ate Thanksgiving dinner. I bet my niece $1 that I would run it in under 40 minutes. I got &lt; 33 minutes (unofficially\u2014the times aren&rsquo;t posted yet).\nAbout 900 people signed up for this particular 5k!\nThe 2nd prize was a huge pie (and a $50 Dick&rsquo;s gift card, but you can&rsquo;t eat that so it&rsquo;s less important).\n",
@@ -996,7 +1012,7 @@
       }
     ).add(
       {
-        id: 13,
+        id: 15,
         href: "/blog/placeholder-text/",
         title: "Placeholder Text",
         description: "Lorem Ipsum Dolor Si Amet",

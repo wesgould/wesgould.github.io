@@ -2,20 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://wesgould.github.io/recipes/</loc>
+    <lastmod>2025-09-17T15:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://wesgould.github.io/recipes/roasted-tomato-burrata-dip/</loc>
+    <lastmod>2025-09-17T15:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://wesgould.github.io/</loc>
+    <lastmod>2025-09-17T15:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://wesgould.github.io/blog/</loc>
-    <lastmod>2024-08-23T14:49:51-04:00</lastmod>
+    <lastmod>2025-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wesgould.github.io/blog/open-webui/</loc>
     <lastmod>2024-08-23T14:49:51-04:00</lastmod>
   </url><url>
-    <loc>https://wesgould.github.io/</loc>
-    <lastmod>2024-08-23T14:49:51-04:00</lastmod>
-  </url><url>
     <loc>https://wesgould.github.io/blog/rocm-on-pop/</loc>
     <lastmod>2024-08-21T10:49:09-04:00</lastmod>
-  </url><url>
-    <loc>https://wesgould.github.io/recipes/</loc>
-    <lastmod>2024-02-17T15:26:34-05:00</lastmod>
   </url><url>
     <loc>https://wesgould.github.io/recipes/stuffed-peppers/</loc>
     <lastmod>2024-02-17T15:26:34-05:00</lastmod>

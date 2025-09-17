@@ -1811,6 +1811,211 @@ h1:hover .post-heading__anchor, h2:hover .post-heading__anchor, h3:hover .post-h
     padding: 0.4rem 0.8rem !important;
   }
 }
+
+/* Admonition shortcode styles */
+
+.admonition {
+  border-left: 4px solid;
+  border-radius: 4px;
+  margin: 1.5rem 0;
+  overflow: hidden;
+}
+
+.admonition__header {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+}
+
+.admonition__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.admonition__icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.admonition__title {
+  font-family: var(--font-sans-serif);
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  color: var(--fg);
+}
+
+.admonition__content {
+  padding: 0.5rem;
+  color: var(--fg);
+  font-family: var(--font-sans-serif);
+  line-height: 1.6;
+}
+
+.admonition__content > *:first-child {
+  margin-top: 0;
+}
+
+.admonition__content > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Type-specific colors */
+
+.admonition--note {
+  background: color-mix(in srgb, var(--ctp-blue) 10%, transparent);
+  border-color: var(--ctp-blue);
+}
+
+.admonition--note .admonition__header {
+  background: color-mix(in srgb, var(--ctp-blue) 20%, transparent);
+}
+
+.admonition--note .admonition__icon {
+  color: var(--ctp-blue);
+}
+
+.admonition--info {
+  background: color-mix(in srgb, var(--ctp-sky) 10%, transparent);
+  border-color: var(--ctp-sky);
+}
+
+.admonition--info .admonition__header {
+  background: color-mix(in srgb, var(--ctp-sky) 20%, transparent);
+}
+
+.admonition--info .admonition__icon {
+  color: var(--ctp-sky);
+}
+
+.admonition--tip {
+  background: color-mix(in srgb, var(--ctp-teal) 10%, transparent);
+  border-color: var(--ctp-teal);
+}
+
+.admonition--tip .admonition__header {
+  background: color-mix(in srgb, var(--ctp-teal) 20%, transparent);
+}
+
+.admonition--tip .admonition__icon {
+  color: var(--ctp-teal);
+}
+
+.admonition--success {
+  background: color-mix(in srgb, var(--ctp-green) 10%, transparent);
+  border-color: var(--ctp-green);
+}
+
+.admonition--success .admonition__header {
+  background: color-mix(in srgb, var(--ctp-green) 20%, transparent);
+}
+
+.admonition--success .admonition__icon {
+  color: var(--ctp-green);
+}
+
+.admonition--warning {
+  background: color-mix(in srgb, var(--ctp-yellow) 10%, transparent);
+  border-color: var(--ctp-yellow);
+}
+
+.admonition--warning .admonition__header {
+  background: color-mix(in srgb, var(--ctp-yellow) 20%, transparent);
+}
+
+.admonition--warning .admonition__icon {
+  color: var(--ctp-yellow);
+}
+
+.admonition--error {
+  background: color-mix(in srgb, var(--ctp-red) 10%, transparent);
+  border-color: var(--ctp-red);
+}
+
+.admonition--error .admonition__header {
+  background: color-mix(in srgb, var(--ctp-red) 20%, transparent);
+}
+
+.admonition--error .admonition__icon {
+  color: var(--ctp-red);
+}
+
+.admonition--example {
+  background: color-mix(in srgb, var(--ctp-mauve) 10%, transparent);
+  border-color: var(--ctp-mauve);
+}
+
+.admonition--example .admonition__header {
+  background: color-mix(in srgb, var(--ctp-mauve) 20%, transparent);
+}
+
+.admonition--example .admonition__icon {
+  color: var(--ctp-mauve);
+}
+
+/* Center quote shortcode styles */
+
+.center-quote {
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  color: var(--ctp-lavender);
+  position: relative;
+  max-width: 80%;
+}
+
+.center-quote::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--ctp-lavender);
+  opacity: 0.3;
+}
+
+.center-quote::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--ctp-lavender);
+  opacity: 0.3;
+}
+
+/* Mermaid shortcode styles */
+
+.mermaid-container {
+  text-align: center;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.mermaid {
+  max-width: 100%;
+  height: auto;
+  background: transparent;
+  font-family: var(--font-monospace);
+}
+
+.mermaid-container pre.mermaid {
+  background: transparent;
+  border: none;
+  padding: 1rem;
+  overflow: visible;
+}
    
 </style>
 
@@ -1894,6 +2099,8 @@ h1:hover .post-heading__anchor, h2:hover .post-heading__anchor, h3:hover .post-h
 
   
   
+
+
 
 </head>
 
