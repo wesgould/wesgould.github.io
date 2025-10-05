@@ -161,3 +161,14 @@ pre[class*="language-"].line-numbers > code {
 	padding-right: 0.8em;
 	text-align: right;
 }
+
+/* Custom ingredients language styling */
+.token.measurement,
+.token.quantity {
+	color: #fab387; /* peach - for measurements and quantities */
+	font-weight: bold;
+}
+
+.token.ingredient-name {
+	color: #a6da95; /* green - for ingredient names */
+}

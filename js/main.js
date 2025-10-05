@@ -3129,6 +3129,31 @@
     }
   });
 
+  // ns-hugo-imp:/Users/wes/projects/wesgouldcom/assets/js/prism-ingredients.js
+  var init_prism_ingredients = __esm({
+    "ns-hugo-imp:/Users/wes/projects/wesgouldcom/assets/js/prism-ingredients.js"() {
+      Prism.languages.ingredients = {
+        "comment": {
+          pattern: /^#.*$/m,
+          greedy: true,
+          alias: "comment"
+        },
+        "measurement": {
+          pattern: /^\s*(?:\d+(?:[.\/\-–]\d+)*|[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞])\s*(?:cups?|tbsp?|tsp?|lbs?|oz|g|kg|ml|l|liters?|gallons?|pints?|quarts?|inches?|in|cm|mm|fahrenheit|celsius|f|c|Tbsp)\b/mi,
+          alias: "number"
+        },
+        "quantity": {
+          pattern: /^\s*(?:\d+(?:[.\/\-–]\d+)*|[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞])/m,
+          alias: "number"
+        },
+        "ingredient-name": {
+          pattern: /.+/,
+          alias: "string"
+        }
+      };
+    }
+  });
+
   // <stdin>
   var require_stdin = __commonJS({
     "<stdin>"(exports) {
@@ -3146,6 +3171,7 @@
       init_prism_line_numbers();
       init_prism_command_line();
       init_prism_diff_highlight();
+      init_prism_ingredients();
       import_prismjs.default.highlightAll();
       var RecipeMode = class {
         constructor() {
