@@ -38,6 +38,13 @@
       <description>&lt;p&gt;It&amp;rsquo;s been an&amp;hellip;adventure.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-switch-from-publii-to-hugo&#34;&gt;Why Switch from Publii to Hugo?&lt;a href=&#34;#why-switch-from-publii-to-hugo&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;I am switching from Publii to &lt;a&#xA;  href=&#34;https://gohugo.io/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;Hugo&lt;/a&gt; because I wanted to take advantage of the text notes I was already taking with Vimwiki for my various projects. The Publii interface was nice, but I&amp;rsquo;m already writing notes in a format that doesn&amp;rsquo;t require me to use their WYSIWYG editor. I know that seems lazy, but it&amp;rsquo;s an extra step that caused &lt;strong&gt;just enough&lt;/strong&gt; friction that I wouldn&amp;rsquo;t update the blog.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Creating NFS Shares</title>
+      <link>https://wesgould.github.io/blog/creating-nfs-shares/</link>
+      <pubDate>Wed, 22 Nov 2023 22:05:46 -0500</pubDate>
+      <guid>https://wesgould.github.io/blog/creating-nfs-shares/</guid>
+      <description>&lt;h1 id=&#34;creating-an-nfs-share&#34;&gt;Creating an NFS share&lt;a href=&#34;#creating-an-nfs-share&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;If you are trying to share between *nix systems, the Network File Servers (NFS) are really easy to set up. Note: If you are planning on sharing with Windows machines, SMB/Samba is a better option.&lt;/p&gt;&#xA;&lt;p&gt;It should also be noted that NFS doesn&amp;rsquo;t restrict, by default, to individual users. It limits to IPs and IP ranges&amp;ndash;which makes it ideal for secure networks, but less-than-ideal for non-secure / public networks.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Turkey Trot 2019</title>
       <link>https://wesgould.github.io/blog/turkey-trot-2019/</link>
       <pubDate>Thu, 28 Nov 2019 10:02:06 -0500</pubDate>
