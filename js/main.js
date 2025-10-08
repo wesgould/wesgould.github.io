@@ -1928,6 +1928,183 @@
     }
   });
 
+  // ns-hugo-imp:/Users/wes/projects/wesgouldcom/node_modules/prismjs/components/prism-json.js
+  var init_prism_json = __esm({
+    "ns-hugo-imp:/Users/wes/projects/wesgouldcom/node_modules/prismjs/components/prism-json.js"() {
+      Prism.languages.json = {
+        "property": {
+          pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?=\s*:)/,
+          lookbehind: true,
+          greedy: true
+        },
+        "string": {
+          pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?!\s*:)/,
+          lookbehind: true,
+          greedy: true
+        },
+        "comment": {
+          pattern: /\/\/.*|\/\*[\s\S]*?(?:\*\/|$)/,
+          greedy: true
+        },
+        "number": /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
+        "punctuation": /[{}[\],]/,
+        "operator": /:/,
+        "boolean": /\b(?:false|true)\b/,
+        "null": {
+          pattern: /\bnull\b/,
+          alias: "keyword"
+        }
+      };
+      Prism.languages.webmanifest = Prism.languages.json;
+    }
+  });
+
+  // ns-hugo-imp:/Users/wes/projects/wesgouldcom/node_modules/prismjs/components/prism-python.js
+  var init_prism_python = __esm({
+    "ns-hugo-imp:/Users/wes/projects/wesgouldcom/node_modules/prismjs/components/prism-python.js"() {
+      Prism.languages.python = {
+        "comment": {
+          pattern: /(^|[^\\])#.*/,
+          lookbehind: true,
+          greedy: true
+        },
+        "string-interpolation": {
+          pattern: /(?:f|fr|rf)(?:("""|''')[\s\S]*?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,
+          greedy: true,
+          inside: {
+            "interpolation": {
+              // "{" <expression> <optional "!s", "!r", or "!a"> <optional ":" format specifier> "}"
+              pattern: /((?:^|[^{])(?:\{\{)*)\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}])+\})+\})+\}/,
+              lookbehind: true,
+              inside: {
+                "format-spec": {
+                  pattern: /(:)[^:(){}]+(?=\}$)/,
+                  lookbehind: true
+                },
+                "conversion-option": {
+                  pattern: /![sra](?=[:}]$)/,
+                  alias: "punctuation"
+                },
+                rest: null
+              }
+            },
+            "string": /[\s\S]+/
+          }
+        },
+        "triple-quoted-string": {
+          pattern: /(?:[rub]|br|rb)?("""|''')[\s\S]*?\1/i,
+          greedy: true,
+          alias: "string"
+        },
+        "string": {
+          pattern: /(?:[rub]|br|rb)?("|')(?:\\.|(?!\1)[^\\\r\n])*\1/i,
+          greedy: true
+        },
+        "function": {
+          pattern: /((?:^|\s)def[ \t]+)[a-zA-Z_]\w*(?=\s*\()/g,
+          lookbehind: true
+        },
+        "class-name": {
+          pattern: /(\bclass\s+)\w+/i,
+          lookbehind: true
+        },
+        "decorator": {
+          pattern: /(^[\t ]*)@\w+(?:\.\w+)*/m,
+          lookbehind: true,
+          alias: ["annotation", "punctuation"],
+          inside: {
+            "punctuation": /\./
+          }
+        },
+        "keyword": /\b(?:_(?=\s*:)|and|as|assert|async|await|break|case|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|match|nonlocal|not|or|pass|print|raise|return|try|while|with|yield)\b/,
+        "builtin": /\b(?:__import__|abs|all|any|apply|ascii|basestring|bin|bool|buffer|bytearray|bytes|callable|chr|classmethod|cmp|coerce|compile|complex|delattr|dict|dir|divmod|enumerate|eval|execfile|file|filter|float|format|frozenset|getattr|globals|hasattr|hash|help|hex|id|input|int|intern|isinstance|issubclass|iter|len|list|locals|long|map|max|memoryview|min|next|object|oct|open|ord|pow|property|range|raw_input|reduce|reload|repr|reversed|round|set|setattr|slice|sorted|staticmethod|str|sum|super|tuple|type|unichr|unicode|vars|xrange|zip)\b/,
+        "boolean": /\b(?:False|None|True)\b/,
+        "number": /\b0(?:b(?:_?[01])+|o(?:_?[0-7])+|x(?:_?[a-f0-9])+)\b|(?:\b\d+(?:_\d+)*(?:\.(?:\d+(?:_\d+)*)?)?|\B\.\d+(?:_\d+)*)(?:e[+-]?\d+(?:_\d+)*)?j?(?!\w)/i,
+        "operator": /[-+%=]=?|!=|:=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]/,
+        "punctuation": /[{}[\];(),.:]/
+      };
+      Prism.languages.python["string-interpolation"].inside["interpolation"].inside.rest = Prism.languages.python;
+      Prism.languages.py = Prism.languages.python;
+    }
+  });
+
+  // ns-hugo-imp:/Users/wes/projects/wesgouldcom/node_modules/prismjs/components/prism-yaml.js
+  var init_prism_yaml = __esm({
+    "ns-hugo-imp:/Users/wes/projects/wesgouldcom/node_modules/prismjs/components/prism-yaml.js"() {
+      (function(Prism2) {
+        var anchorOrAlias = /[*&][^\s[\]{},]+/;
+        var tag = /!(?:<[\w\-%#;/?:@&=+$,.!~*'()[\]]+>|(?:[a-zA-Z\d-]*!)?[\w\-%#;/?:@&=+$.~*'()]+)?/;
+        var properties = "(?:" + tag.source + "(?:[ 	]+" + anchorOrAlias.source + ")?|" + anchorOrAlias.source + "(?:[ 	]+" + tag.source + ")?)";
+        var plainKey = /(?:[^\s\x00-\x08\x0e-\x1f!"#%&'*,\-:>?@[\]`{|}\x7f-\x84\x86-\x9f\ud800-\udfff\ufffe\uffff]|[?:-]<PLAIN>)(?:[ \t]*(?:(?![#:])<PLAIN>|:<PLAIN>))*/.source.replace(/<PLAIN>/g, function() {
+          return /[^\s\x00-\x08\x0e-\x1f,[\]{}\x7f-\x84\x86-\x9f\ud800-\udfff\ufffe\uffff]/.source;
+        });
+        var string = /"(?:[^"\\\r\n]|\\.)*"|'(?:[^'\\\r\n]|\\.)*'/.source;
+        function createValuePattern(value, flags) {
+          flags = (flags || "").replace(/m/g, "") + "m";
+          var pattern = /([:\-,[{]\s*(?:\s<<prop>>[ \t]+)?)(?:<<value>>)(?=[ \t]*(?:$|,|\]|\}|(?:[\r\n]\s*)?#))/.source.replace(/<<prop>>/g, function() {
+            return properties;
+          }).replace(/<<value>>/g, function() {
+            return value;
+          });
+          return RegExp(pattern, flags);
+        }
+        Prism2.languages.yaml = {
+          "scalar": {
+            pattern: RegExp(/([\-:]\s*(?:\s<<prop>>[ \t]+)?[|>])[ \t]*(?:((?:\r?\n|\r)[ \t]+)\S[^\r\n]*(?:\2[^\r\n]+)*)/.source.replace(/<<prop>>/g, function() {
+              return properties;
+            })),
+            lookbehind: true,
+            alias: "string"
+          },
+          "comment": /#.*/,
+          "key": {
+            pattern: RegExp(/((?:^|[:\-,[{\r\n?])[ \t]*(?:<<prop>>[ \t]+)?)<<key>>(?=\s*:\s)/.source.replace(/<<prop>>/g, function() {
+              return properties;
+            }).replace(/<<key>>/g, function() {
+              return "(?:" + plainKey + "|" + string + ")";
+            })),
+            lookbehind: true,
+            greedy: true,
+            alias: "atrule"
+          },
+          "directive": {
+            pattern: /(^[ \t]*)%.+/m,
+            lookbehind: true,
+            alias: "important"
+          },
+          "datetime": {
+            pattern: createValuePattern(/\d{4}-\d\d?-\d\d?(?:[tT]|[ \t]+)\d\d?:\d{2}:\d{2}(?:\.\d*)?(?:[ \t]*(?:Z|[-+]\d\d?(?::\d{2})?))?|\d{4}-\d{2}-\d{2}|\d\d?:\d{2}(?::\d{2}(?:\.\d*)?)?/.source),
+            lookbehind: true,
+            alias: "number"
+          },
+          "boolean": {
+            pattern: createValuePattern(/false|true/.source, "i"),
+            lookbehind: true,
+            alias: "important"
+          },
+          "null": {
+            pattern: createValuePattern(/null|~/.source, "i"),
+            lookbehind: true,
+            alias: "important"
+          },
+          "string": {
+            pattern: createValuePattern(string),
+            lookbehind: true,
+            greedy: true
+          },
+          "number": {
+            pattern: createValuePattern(/[+-]?(?:0x[\da-f]+|0o[0-7]+|(?:\d+(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?|\.inf|\.nan)/.source, "i"),
+            lookbehind: true
+          },
+          "tag": tag,
+          "important": anchorOrAlias,
+          "punctuation": /---|[:[\]{}\-,|>?]|\.\.\./
+        };
+        Prism2.languages.yml = Prism2.languages.yaml;
+      })(Prism);
+    }
+  });
+
   // ns-hugo-imp:/Users/wes/projects/wesgouldcom/node_modules/prismjs/components/prism-bash.js
   var init_prism_bash = __esm({
     "ns-hugo-imp:/Users/wes/projects/wesgouldcom/node_modules/prismjs/components/prism-bash.js"() {
@@ -3162,6 +3339,9 @@
       init_prism_css();
       init_prism_clike();
       init_prism_javascript();
+      init_prism_json();
+      init_prism_python();
+      init_prism_yaml();
       init_prism_bash();
       init_prism_diff();
       init_prism_toml();
