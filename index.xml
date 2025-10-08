@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2003</copyright>
-    <lastBuildDate>Wed, 17 Sep 2025 15:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wesgould.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI-Powered Podcast Transcription System</title>
+      <link>https://wesgould.github.io/projects/voxdex-ai-transcription/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://wesgould.github.io/projects/voxdex-ai-transcription/</guid>
+      <description>&lt;h1 id=&#34;ai-auto-transcription-system&#34;&gt;AI Auto Transcription System&lt;a href=&#34;#ai-auto-transcription-system&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;a href=&#34;#introduction&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;About two years ago, right as the LLM craze was really popping off, I stumbled on WhisperAI&amp;ndash;a tool released by OpenAI that let you transcribe audio (voice-to-text). I actually uncovered it when I was looking at a way to dictate some of my personal notes in Neovim (vimwiki). I found nerd-dictation [https://github.com/ideasman42/nerd-dictation] which was super amazing, but didn&amp;rsquo;t work on my macbook and died on me as linux began the march away from x11 to wayland. Nerd-dictation required some of the security&amp;hellip;&amp;ldquo;openness&amp;rdquo; that X11 afforded. I switched to wayland to get something working on my Pop_OS! machine, and when I did that, I lost my ability to use nerd-dictation.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Roasted Tomato &amp; Burrata Dip with Garlic Crostinis</title>
       <link>https://wesgould.github.io/recipes/roasted-tomato-burrata-dip/</link>
