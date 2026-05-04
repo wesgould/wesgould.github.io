@@ -7,6 +7,35 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2003</copyright>
+    <lastBuildDate>Sun, 26 Apr 2026 00:00:00 -0500</lastBuildDate>
     <atom:link href="https://wesgould.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cars</title>
+      <link>https://wesgould.github.io/tags/cars/</link>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 -0500</pubDate>
+      <guid>https://wesgould.github.io/tags/cars/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cvt</title>
+      <link>https://wesgould.github.io/tags/cvt/</link>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 -0500</pubDate>
+      <guid>https://wesgould.github.io/tags/cvt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maintenance</title>
+      <link>https://wesgould.github.io/tags/maintenance/</link>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 -0500</pubDate>
+      <guid>https://wesgould.github.io/tags/maintenance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Outback</title>
+      <link>https://wesgould.github.io/tags/outback/</link>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 -0500</pubDate>
+      <guid>https://wesgould.github.io/tags/outback/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

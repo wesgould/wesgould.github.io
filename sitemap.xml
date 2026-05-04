@@ -2,7 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://wesgould.github.io/blog/cvt-fluid-flush-pt1/</loc>
+    <lastmod>2026-04-26T00:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://wesgould.github.io/blog/</loc>
+    <lastmod>2026-04-26T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://wesgould.github.io/tags/cars/</loc>
+    <lastmod>2026-04-26T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://wesgould.github.io/tags/cvt/</loc>
+    <lastmod>2026-04-26T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://wesgould.github.io/tags/maintenance/</loc>
+    <lastmod>2026-04-26T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://wesgould.github.io/tags/outback/</loc>
+    <lastmod>2026-04-26T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://wesgould.github.io/series/outback-maintenance/</loc>
+    <lastmod>2026-04-26T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://wesgould.github.io/series/</loc>
+    <lastmod>2026-04-26T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://wesgould.github.io/tags/</loc>
     <lastmod>2026-04-26T00:00:00-05:00</lastmod>
   </url><url>
     <loc>https://wesgould.github.io/</loc>
@@ -63,9 +87,5 @@
     <loc>https://wesgould.github.io/cv/</loc>
   </url><url>
     <loc>https://wesgould.github.io/cv.de/</loc>
-  </url><url>
-    <loc>https://wesgould.github.io/series/</loc>
-  </url><url>
-    <loc>https://wesgould.github.io/tags/</loc>
   </url>
 </urlset>

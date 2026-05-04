@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cvt on wesgould.com</title>
-    <link>http://localhost:1313/tags/cvt/</link>
+    <link>https://wesgould.github.io/tags/cvt/</link>
     <description>Recent content in Cvt on wesgould.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2003</copyright>
     <lastBuildDate>Sun, 26 Apr 2026 00:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cvt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wesgould.github.io/tags/cvt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2017 Subaru Outback 2.5i - CVT Fluid Drain and Fill</title>
-      <link>http://localhost:1313/blog/cvt-fluid-flush-pt1/</link>
+      <link>https://wesgould.github.io/blog/cvt-fluid-flush-pt1/</link>
       <pubDate>Sun, 26 Apr 2026 00:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/blog/cvt-fluid-flush-pt1/</guid>
+      <guid>https://wesgould.github.io/blog/cvt-fluid-flush-pt1/</guid>
       <description>&lt;p&gt;One of the first &amp;lsquo;big&amp;rsquo; maintenance items I decided to tackle as part of my 88k maintenance adventure was the CVT transmission fluid flush. I did tons of research and watched a handful of youtube videos. Its a pretty straightforward process. I wrote up the procedure, as I understood it from all of my research, then had ChatGPT verify it and format it for me and put it into a guide I could follow.&lt;/p&gt;</description>
     </item>
   </channel>
