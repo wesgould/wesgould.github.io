@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coolant on wesgould.com</title>
+    <link>http://localhost:1313/tags/coolant/</link>
+    <description>Recent content in Coolant on wesgould.com</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2003</copyright>
+    <lastBuildDate>Sun, 29 Mar 2026 00:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/coolant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2017 Subaru Outback 2.5i - Coolant Flush</title>
+      <link>http://localhost:1313/blog/coolant-flush/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/coolant-flush/</guid>
+      <description>&lt;!-- TODO: write up the coolant flush story --&gt;&#xA;&lt;p&gt;This is one of the easiest DIY maintenance things you can do your Subaru. I believe the dealership wanted to charge me $495 to do it. To DIY its about ~$40 in OEM coolant (from the dealership) and $30 in parts/tools. You could probably get by without the special funnel but it makes &amp;lsquo;bleeding&amp;rsquo; the system more straightforward.&lt;/p&gt;&#xA;&lt;p&gt;Like the CVT Fluid change, I did a lot of research and consolidated it into a list of steps then had ChatGPT organize it into a printable procedure PDF.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

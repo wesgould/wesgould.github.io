@@ -84,8 +84,8 @@
 
 
   <meta itemprop="name" content="Blogs">
-  <meta itemprop="datePublished" content="2026-04-26T00:00:00-05:00">
-  <meta itemprop="dateModified" content="2026-04-26T00:00:00-05:00">
+  <meta itemprop="datePublished" content="2026-05-05T00:00:00-05:00">
+  <meta itemprop="dateModified" content="2026-05-05T00:00:00-05:00">
 
 
 
@@ -2200,6 +2200,390 @@ h1:hover .post-heading__anchor, h2:hover .post-heading__anchor, h3:hover .post-h
     
   </div>
   
+  <article class="post">
+    <div class="post-header">
+      <h2>
+        <a href="/blog/migrating-to-hugo/">Migrating to Hugo</a>
+      </h2>
+      <div class="post-meta"><span>2023-11-24</span>
+
+  
+    
+    
+    
+
+
+
+  
+  
+    
+    
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+        
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+
+
+    <picture>
+      <source
+        type="image/webp"
+        srcset="/blog/migrating-to-hugo/hugo-logo_hu_82d582ba71a520b8.webp 300w,/blog/migrating-to-hugo/hugo-logo_hu_9025c3301444ac7b.webp 500w,/blog/migrating-to-hugo/hugo-logo_hu_b8d397fdf72dfaa7.webp 700w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
+      />
+      <img
+        src="/blog/migrating-to-hugo/hugo-logo.png"
+        srcset="/blog/migrating-to-hugo/hugo-logo_hu_e5cb1dc57a19f230.png 300w,/blog/migrating-to-hugo/hugo-logo_hu_bf92cf16ed83493b.png 500w,/blog/migrating-to-hugo/hugo-logo_hu_3518711c36688b7b.png 700w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
+        alt=""
+        
+        
+        width="1244"
+        height="428"
+      />
+    </picture>
+  
+
+
+
+
+
+
+  
+</div>
+
+    </div>
+
+    <div class="post-content">
+      
+        <p>It&rsquo;s been an&hellip;adventure.</p>
+<h3 id="why-switch-from-publii-to-hugo">Why Switch from Publii to Hugo?<a href="#why-switch-from-publii-to-hugo" class="post-heading__anchor" aria-hidden="true">#</a>
+</h3>
+<p>I am switching from Publii to <a
+  href="https://gohugo.io/"
+  
+  
+    class="link--external" target="_blank" rel="noreferrer"
+  
+>Hugo</a> because I wanted to take advantage of the text notes I was already taking with Vimwiki for my various projects. The Publii interface was nice, but I&rsquo;m already writing notes in a format that doesn&rsquo;t require me to use their WYSIWYG editor. I know that seems lazy, but it&rsquo;s an extra step that caused <strong>just enough</strong> friction that I wouldn&rsquo;t update the blog.</p>
+        
+          <div class="post-content__read-more">
+            <a href="/blog/migrating-to-hugo/">Read more &gt;</a>
+          </div>
+        
+      
+    </div>
+  </article>
+
+  <article class="post">
+    <div class="post-header">
+      <h2>
+        <a href="/blog/creating-nfs-shares/">Creating NFS Shares</a>
+      </h2>
+      <div class="post-meta"><span>2023-11-22</span>
+
+  
+</div>
+
+    </div>
+
+    <div class="post-content">
+      
+        <h1 id="creating-an-nfs-share">Creating an NFS share<a href="#creating-an-nfs-share" class="post-heading__anchor" aria-hidden="true">#</a>
+</h1>
+<p>If you are trying to share between *nix systems, the Network File Servers (NFS) are really easy to set up. Note: If you are planning on sharing with Windows machines, SMB/Samba is a better option.</p>
+<p>It should also be noted that NFS doesn&rsquo;t restrict, by default, to individual users. It limits to IPs and IP ranges&ndash;which makes it ideal for secure networks, but less-than-ideal for non-secure / public networks.</p>
+        
+          <div class="post-content__read-more">
+            <a href="/blog/creating-nfs-shares/">Read more &gt;</a>
+          </div>
+        
+      
+    </div>
+  </article>
+
+  <article class="post">
+    <div class="post-header">
+      <h2>
+        <a href="/blog/embed-video-files/">Embed Video Files</a>
+      </h2>
+      <div class="post-meta"><span>2022-04-26</span>
+
+  
+</div>
+
+    </div>
+
+    <div class="post-content">
+      
+        <p>Use the <a
+  href="https://github.com/schnerring/hugo-theme-gruvbox/blob/main/layouts/shortcodes/video.html"
+  
+  
+    class="link--external" target="_blank" rel="noreferrer"
+  
+>video shortcode</a>
+to embed your video files from <a
+  href="https://gohugo.io/content-management/page-resources/"
+  
+  
+    class="link--external" target="_blank" rel="noreferrer"
+  
+>Hugo Page Resources</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <video
+    autoplay
+    
+    
+    loop
+    
+    poster="/blog/embed-video-files/my-video.jpg"
+    
+    
+    playsinline
+  ><source src="/blog/embed-video-files/my-video.mp4" type="video/mp4" /><source src="/blog/embed-video-files/my-video.webm" type="video/webm" /></video>
+        
+          <div class="post-content__read-more">
+            <a href="/blog/embed-video-files/">Read more &gt;</a>
+          </div>
+        
+      
+    </div>
+  </article>
+
+  <article class="post">
+    <div class="post-header">
+      <h2>
+        <a href="/blog/image-optimization/">Image Optimization</a>
+      </h2>
+      <div class="post-meta"><span>2021-10-16</span>
+
+  
+    
+    
+    
+
+  <figure>
+
+
+
+  
+  
+    
+    
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+        
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+
+
+    <picture>
+      <source
+        type="image/webp"
+        srcset="/blog/image-optimization/alexandre-van-thuan-mr9FouttLGY-unsplash_hu_995f5971fa3d7526.webp 300w,/blog/image-optimization/alexandre-van-thuan-mr9FouttLGY-unsplash_hu_9f066bb2ff143770.webp 500w,/blog/image-optimization/alexandre-van-thuan-mr9FouttLGY-unsplash_hu_24d94a0698e45b82.webp 700w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
+      />
+      <img
+        src="/blog/image-optimization/alexandre-van-thuan-mr9FouttLGY-unsplash.jpg"
+        srcset="/blog/image-optimization/alexandre-van-thuan-mr9FouttLGY-unsplash_hu_2a7a3f98e9574181.jpg 300w,/blog/image-optimization/alexandre-van-thuan-mr9FouttLGY-unsplash_hu_e208b7491188f86d.jpg 500w,/blog/image-optimization/alexandre-van-thuan-mr9FouttLGY-unsplash_hu_5a072864d900e01e.jpg 700w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
+        alt="The interior of Stadsbiblioteket in Stockholm - Gunnar Asplunds library from 1928. The architecture is a transition between neoclassicism and functionalism."
+        title="By Alexandre Van Thuan"
+        loading="lazy"
+        width="4553"
+        height="3419"
+      />
+    </picture>
+  
+
+
+
+
+
+    <figcaption>By <a
+  href="https://unsplash.com/photos/mr9FouttLGY"
+  
+  
+    class="link--external" target="_blank" rel="noreferrer"
+  
+>Alexandre Van Thuan</a></figcaption>
+  </figure>
+
+
+  
+</div>
+
+    </div>
+
+    <div class="post-content">
+      
+        <p>The theme optimizes images by default with a custom <a
+  href="https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks"
+  
+  
+    class="link--external" target="_blank" rel="noreferrer"
+  
+>Hugo&rsquo;s markdown render hook</a>:</p>
+<ul>
+<li>The theme creates resized versions for each image, ranging from 100 to 700
+pixels wide.</li>
+<li>It generates <a
+  href="https://en.wikipedia.org/wiki/WebP"
+  
+  
+    class="link--external" target="_blank" rel="noreferrer"
+  
+>WebP</a> versions for each size
+if the original image format isn&rsquo;t WebP.</li>
+<li>The theme keeps the original file format as a fallback for browsers that
+<a
+  href="https://caniuse.com/webp"
+  
+  
+    class="link--external" target="_blank" rel="noreferrer"
+  
+>don&rsquo;t support the WebP format</a>.</li>
+<li>Images in SVG format are embedded as-is.</li>
+</ul>
+<h2 id="blog-post-cover-images">Blog Post Cover Images<a href="#blog-post-cover-images" class="post-heading__anchor" aria-hidden="true">#</a>
+</h2>
+<p>Use the <a
+  href="https://gohugo.io/content-management/front-matter/"
+  
+  
+    class="link--external" target="_blank" rel="noreferrer"
+  
+>front matter</a> of
+your posts to add cover images:</p>
+        
+          <div class="post-content__read-more">
+            <a href="/blog/image-optimization/">Read more &gt;</a>
+          </div>
+        
+      
+    </div>
+  </article>
+
   <article class="post">
     <div class="post-header">
       <h2>
