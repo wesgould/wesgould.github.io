@@ -2,96 +2,96 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://wesgould.github.io/blog/</loc>
     <lastmod>2026-05-05T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://wesgould.github.io/</loc>
     <lastmod>2026-05-05T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/coolant-flush/</loc>
+    <loc>https://wesgould.github.io/blog/coolant-flush/</loc>
     <lastmod>2026-03-29T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cars/</loc>
+    <loc>https://wesgould.github.io/tags/cars/</loc>
     <lastmod>2026-03-29T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/coolant/</loc>
+    <loc>https://wesgould.github.io/tags/coolant/</loc>
     <lastmod>2026-03-29T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/maintenance/</loc>
+    <loc>https://wesgould.github.io/tags/maintenance/</loc>
     <lastmod>2026-03-29T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/outback/</loc>
+    <loc>https://wesgould.github.io/tags/outback/</loc>
     <lastmod>2026-03-29T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/outback-maintenance/</loc>
+    <loc>https://wesgould.github.io/series/outback-maintenance/</loc>
     <lastmod>2026-03-29T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://wesgould.github.io/series/</loc>
     <lastmod>2026-03-29T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://wesgould.github.io/tags/</loc>
     <lastmod>2026-03-29T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/cvt-fluid-flush-pt1/</loc>
+    <loc>https://wesgould.github.io/blog/cvt-fluid-flush-pt1/</loc>
     <lastmod>2026-03-26T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cvt/</loc>
+    <loc>https://wesgould.github.io/tags/cvt/</loc>
     <lastmod>2026-03-26T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/88k-maintenance-adventure/</loc>
+    <loc>https://wesgould.github.io/projects/88k-maintenance-adventure/</loc>
     <lastmod>2026-03-22T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://wesgould.github.io/projects/</loc>
     <lastmod>2026-03-22T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipes/italian-sausage-tortellini-soup/</loc>
+    <loc>https://wesgould.github.io/recipes/italian-sausage-tortellini-soup/</loc>
     <lastmod>2025-11-19T15:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipes/</loc>
+    <loc>https://wesgould.github.io/recipes/</loc>
     <lastmod>2025-11-19T15:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/voxdex-ai-transcription/</loc>
+    <loc>https://wesgould.github.io/projects/voxdex-ai-transcription/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipes/roasted-tomato-burrata-dip/</loc>
+    <loc>https://wesgould.github.io/recipes/roasted-tomato-burrata-dip/</loc>
     <lastmod>2025-09-17T15:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/open-webui/</loc>
+    <loc>https://wesgould.github.io/blog/open-webui/</loc>
     <lastmod>2024-08-23T14:49:51-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/rocm-on-pop/</loc>
+    <loc>https://wesgould.github.io/blog/rocm-on-pop/</loc>
     <lastmod>2024-08-21T10:49:09-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipes/stuffed-peppers/</loc>
+    <loc>https://wesgould.github.io/recipes/stuffed-peppers/</loc>
     <lastmod>2024-02-17T15:26:34-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/migration-pt2/</loc>
+    <loc>https://wesgould.github.io/blog/migration-pt2/</loc>
     <lastmod>2023-12-02T20:08:11-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipes/homebakes/</loc>
+    <loc>https://wesgould.github.io/recipes/homebakes/</loc>
     <lastmod>2023-11-29T13:46:09-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/migrating-to-hugo/</loc>
+    <loc>https://wesgould.github.io/blog/migrating-to-hugo/</loc>
     <lastmod>2023-11-24T22:35:44-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/creating-nfs-shares/</loc>
+    <loc>https://wesgould.github.io/blog/creating-nfs-shares/</loc>
     <lastmod>2023-11-22T22:05:46-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipes/enchilada-casserole/</loc>
+    <loc>https://wesgould.github.io/recipes/enchilada-casserole/</loc>
     <lastmod>2023-11-22T15:16:43-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipes/cincinatti-chili/</loc>
+    <loc>https://wesgould.github.io/recipes/cincinatti-chili/</loc>
     <lastmod>2023-11-22T11:12:59-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/turkey-trot-2019/</loc>
+    <loc>https://wesgould.github.io/blog/turkey-trot-2019/</loc>
     <lastmod>2019-11-28T10:02:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://wesgould.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://wesgould.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/cv/</loc>
+    <loc>https://wesgould.github.io/cv/</loc>
   </url><url>
-    <loc>http://localhost:1313/cv.de/</loc>
+    <loc>https://wesgould.github.io/cv.de/</loc>
   </url>
 </urlset>

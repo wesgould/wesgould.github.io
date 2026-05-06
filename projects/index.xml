@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on wesgould.com</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://wesgould.github.io/projects/</link>
     <description>Recent content in Projects on wesgould.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2003</copyright>
     <lastBuildDate>Sun, 22 Mar 2026 00:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wesgould.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>88,000 Mile Car Maintenance Adventure</title>
-      <link>http://localhost:1313/projects/88k-maintenance-adventure/</link>
+      <link>https://wesgould.github.io/projects/88k-maintenance-adventure/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/projects/88k-maintenance-adventure/</guid>
+      <guid>https://wesgould.github.io/projects/88k-maintenance-adventure/</guid>
       <description>&lt;p&gt;For the last couple of weeks I&amp;rsquo;ve been watching car restoration videos on YouTube. I got sucked into a YouTube rabbit hole after my 3-year-old daughter caught me surfing Reddit on my phone and wanted to watch the video I was watching. It was an old Land Cruiser restoration video. This specific video became an after-dinner event for the next couple of weeks at my house.&lt;/p&gt;&#xA;&lt;p&gt;My wife needed an oil change and her car still has the free dealership oil changes. I decided to take mine in as well because I paid $175 to continue my &amp;ldquo;MVP Service&amp;rdquo; plan for another 2 years.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI-Powered Podcast Transcription System</title>
-      <link>http://localhost:1313/projects/voxdex-ai-transcription/</link>
+      <link>https://wesgould.github.io/projects/voxdex-ai-transcription/</link>
       <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/voxdex-ai-transcription/</guid>
+      <guid>https://wesgould.github.io/projects/voxdex-ai-transcription/</guid>
       <description>&lt;h1 id=&#34;ai-auto-transcription-system&#34;&gt;AI Auto Transcription System&lt;a href=&#34;#ai-auto-transcription-system&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;a href=&#34;#introduction&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;About two years ago, right as the LLM craze was really popping off, I stumbled on WhisperAI&amp;ndash;a tool released by OpenAI that let you transcribe audio (voice-to-text). I actually uncovered it when I was looking at a way to dictate some of my personal notes in Neovim (vimwiki). I found nerd-dictation [https://github.com/ideasman42/nerd-dictation] which was super amazing, but didn&amp;rsquo;t work on my macbook and died on me as linux began the march away from x11 to wayland. Nerd-dictation required some of the security&amp;hellip;&amp;ldquo;openness&amp;rdquo; that X11 afforded. I switched to wayland to get something working on my Pop_OS! machine, and when I did that, I lost my ability to use nerd-dictation.&lt;/p&gt;</description>
     </item>
   </channel>

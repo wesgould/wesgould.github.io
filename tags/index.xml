@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on wesgould.com</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://wesgould.github.io/tags/</link>
     <description>Recent content in Tags on wesgould.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2003</copyright>
     <lastBuildDate>Sun, 29 Mar 2026 00:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wesgould.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cars</title>
-      <link>http://localhost:1313/tags/cars/</link>
+      <link>https://wesgould.github.io/tags/cars/</link>
       <pubDate>Sun, 29 Mar 2026 00:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/cars/</guid>
+      <guid>https://wesgould.github.io/tags/cars/</guid>
       <description></description>
     </item>
     <item>
       <title>Coolant</title>
-      <link>http://localhost:1313/tags/coolant/</link>
+      <link>https://wesgould.github.io/tags/coolant/</link>
       <pubDate>Sun, 29 Mar 2026 00:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/coolant/</guid>
+      <guid>https://wesgould.github.io/tags/coolant/</guid>
       <description></description>
     </item>
     <item>
       <title>Maintenance</title>
-      <link>http://localhost:1313/tags/maintenance/</link>
+      <link>https://wesgould.github.io/tags/maintenance/</link>
       <pubDate>Sun, 29 Mar 2026 00:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/maintenance/</guid>
+      <guid>https://wesgould.github.io/tags/maintenance/</guid>
       <description></description>
     </item>
     <item>
       <title>Outback</title>
-      <link>http://localhost:1313/tags/outback/</link>
+      <link>https://wesgould.github.io/tags/outback/</link>
       <pubDate>Sun, 29 Mar 2026 00:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/outback/</guid>
+      <guid>https://wesgould.github.io/tags/outback/</guid>
       <description></description>
     </item>
     <item>
       <title>Cvt</title>
-      <link>http://localhost:1313/tags/cvt/</link>
+      <link>https://wesgould.github.io/tags/cvt/</link>
       <pubDate>Thu, 26 Mar 2026 00:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/cvt/</guid>
+      <guid>https://wesgould.github.io/tags/cvt/</guid>
       <description></description>
     </item>
   </channel>
