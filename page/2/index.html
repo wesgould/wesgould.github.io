@@ -333,6 +333,165 @@
   <article class="post">
     <div class="post-header">
       <h2>
+        <a href="/recipes/stuffed-peppers/">Stuffed Peppers</a>
+      </h2>
+      <div class="post-meta"><span>2024-02-17</span>
+
+  
+</div>
+
+    </div>
+
+    <div class="post-content">
+      
+        <p>These stuffed peppers are filled with a hearty mix of rice, ground meat, and tomato, then baked until the peppers are tender and everything comes together in one simple dish.</p>
+        
+          <div class="post-content__read-more">
+            <a href="/recipes/stuffed-peppers/">Read more &gt;</a>
+          </div>
+        
+      
+    </div>
+  </article>
+
+  <article class="post">
+    <div class="post-header">
+      <h2>
+        <a href="/blog/migration-pt2/">Migration Pt2</a>
+      </h2>
+      <div class="post-meta"><span>2023-12-02</span>
+
+  
+</div>
+
+    </div>
+
+    <div class="post-content">
+      
+        <h1 id="updating-dns-records">Updating DNS Records<a href="#updating-dns-records" class="post-heading__anchor" aria-hidden="true">#</a>
+</h1>
+<p>This was a fairly straightforward process:</p>
+<ol>
+<li>Log into GitHub &gt; Go to your public repo &gt; Settings &gt; Pages: and enter your domain in the <strong>Custom Domain</strong> section 
+
+
+
+  
+  
+    
+    
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+        
+          
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+      
+        
+          
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+
+
+    <picture>
+      <source
+        type="image/webp"
+        srcset="/blog/migration-pt2/custom_domain_hu_863a7c49f5e8dd26.webp 300w,/blog/migration-pt2/custom_domain_hu_c686ce4a26f7bab0.webp 500w,/blog/migration-pt2/custom_domain_hu_149e8d990599278c.webp 700w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
+      />
+      <img
+        src="/blog/migration-pt2/custom_domain.png"
+        srcset="/blog/migration-pt2/custom_domain_hu_6b5b27907b16d9c9.png 300w,/blog/migration-pt2/custom_domain_hu_d0938abfd8035928.png 500w,/blog/migration-pt2/custom_domain_hu_8eccff26beff09c2.png 700w"
+        sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
+        alt="Custom Domain"
+        
+        loading="lazy"
+        width="1476"
+        height="314"
+      />
+    </picture>
+  
+
+
+
+
+
+
+</li>
+<li>Add your domain name <code>www.wesgould.com</code></li>
+<li>Log into your DNS provider.
+<ul>
+<li>Delete CNAME / A-RECORDs for <code>www.wesgould.com</code> and <code>wesgould.com</code> to avoid conflicts with the new records.</li>
+<li>ADD CNAME RECORD for <code>www.wesgould.com</code>.</li>
+<li>Add A-RECORD for <code>wesgould.com</code>.</li>
+</ul>
+</li>
+<li>To create A records, point your apex domain to the IP addresses for GitHub Pages:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>- 185.199.108.153
+</span></span><span style="display:flex;"><span>- 185.199.109.153
+</span></span><span style="display:flex;"><span>- 185.199.110.153
+</span></span><span style="display:flex;"><span>- 185.199.111.153
+</span></span></code></pre></div></li>
+</ol>
+        
+          <div class="post-content__read-more">
+            <a href="/blog/migration-pt2/">Read more &gt;</a>
+          </div>
+        
+      
+    </div>
+  </article>
+
+  <article class="post">
+    <div class="post-header">
+      <h2>
         <a href="/recipes/homebakes/">Homebakes</a>
       </h2>
       <div class="post-meta"><span>2023-11-29</span>
@@ -458,7 +617,7 @@
         sizes="(max-width: 499px) 300px,(max-width: 699px) 500px,700px"
         alt=""
         
-        
+        loading="lazy"
         width="1244"
         height="428"
       />
@@ -791,7 +950,7 @@
 
 
 <script src="/js/main.4852da604bb55da3b9508142d90c0d667292cbed45b2d3a9a912059a9ef180b76e71765a1241c15370e18a741e14ef30dd7acd5312306fc267ee6167ea771c97.js" integrity="sha512-SFLaYEu1XaO5UIFC2QwNZnKSy&#43;1FstOpqRIFmp7xgLducXZaEkHBU3DhinQeFO8w3XrNUxIwb8Jn7mFn6ncclw=="></script>
-<script src="/js/flexsearch.b4b83ee30f018fa2a6508c2822c784606871a447437e8061f6efc95160eb468edd5cda7a133b4b60a9dd493ca5abd84345e8067a04837938fe8b6832c1325f58.js" integrity="sha512-tLg&#43;4w8Bj6KmUIwoIseEYGhxpEdDfoBh9u/JUWDrRo7dXNp6EztLYKndSTylq9hDRegGegSDeTj&#43;i2gywTJfWA=="></script>
+<script src="/js/flexsearch.d43b53e8443b2de4f3aac2c747f180741002c1d62dfb132323e5dec79db78e8e3bb9cd78486eb7b2375b769164436664cc016eda0c6bfab0c97bc94eb39aa9fa.js" integrity="sha512-1DtT6EQ7LeTzqsLHR/GAdBACwdYt&#43;xMjI&#43;Xex523jo47uc14SG63sjdbdpFkQ2ZkzAFu2gxr&#43;rDJe8lOs5qp&#43;g=="></script>
 
 
 

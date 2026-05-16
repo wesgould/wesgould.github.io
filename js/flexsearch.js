@@ -893,6 +893,30 @@
     index.add(
       {
         id: 0,
+        href: "/blog/pcv-valve/",
+        title: "2017 Subaru Outback 2.5i - PCV Valve Replacement",
+        description: "The PCV valve wasn&rsquo;t on the dealership&rsquo;s list but one of the youtuber&rsquo;s that I stumbled on while learning how to do all of the maintenance, MrSubaru1387 (https://www.youtube.com/@MrSubaru1387), flagged it as an easy and important item to swap at this mileage. It&rsquo;s a $15 part and a few minutes of work.\nI remember replacing this on my Prelude back in the day.\nHere is the pdf guide I made.\n",
+        content: "The PCV valve wasn&rsquo;t on the dealership&rsquo;s list but one of the youtuber&rsquo;s that I stumbled on while learning how to do all of the maintenance, MrSubaru1387 (https://www.youtube.com/@MrSubaru1387), flagged it as an easy and important item to swap at this mileage. It&rsquo;s a $15 part and a few minutes of work.\nI remember replacing this on my Prelude back in the day.\nHere is the pdf guide I made.\nTools and Supplies\nItem Notes Subaru PCV valve Part # 11810AA130 Pliers Rags / shop towels RTV Sealant It had some RTV type sealant on the old one so I am including it on the replacement valve Replacement Hose Part #: 99071AD96A Deep 19mm socket A medium depth would work, but standard will not 3/8&quot; ratchet + extension You&rsquo;ll need a long extension especially if you dont want to remove the intake Locating the PCV Valve# You dont need to take anything apart to get to it, but it might be a bit easier if you take the intake off.\nThese are &ldquo;after&rdquo; pics because I am terrible at &lsquo;content creation&rsquo; but to give you an idea of where its located:\n&lt;IMG_4868&gt;\nFollow that hose off of the throttle body down to the top of the engine:\n&lt;IMG_4869&gt;\nReplacement# Replacing it is super simple. Use a deep 19mm socket to take it off. There are some people that clean them with parts cleaner and put them back in but OEM is $15-20 new so thats what I did.\nHere is what the old one looked like. You can see the remnants of the RTV they had on it: &lt;img 4860,4861&gt;\nAs you can see from mine it wasn&rsquo;t too bad and if I shook it you could still hear the valve moving so it wasn&rsquo;t gummed up.\n&lt;img 4869&gt;\nI was able to get the hose off without cracking it, but when attempting to put it back on it cracked immemdiately.\n&lt;img 4862&gt;\nThats why I highly recommend preemptively buying a replacement hose. That hose specifically seemed more brittle than most of the other hoses I&rsquo;ve manipulated during these projects.\nIf your dealership&rsquo;s parts department is anyhting like the one near me, if you dont use it, you can return it. So, like I said, its nice to have one handy if it breaks. &lt;IMG_4863&gt;\nReinstalling it is as easy as:\nSmall amount of RTV around the PCV threads Screw it back it and torque to spec (which was anywhere from 12ft lb to 22ft lb from the articles I read. I used 18 ft lbs) Connect the new vacuum host Thats it. Easy Peasy.\n"
+      }
+    ).add(
+      {
+        id: 1,
+        href: "/blog/spark-plugs/",
+        title: "2017 Subaru Outback 2.5i - Spark Plug Replacement",
+        description: " Tools and Supplies\nItem Notes NGK Iridium spark plugs 4x, Part # ILZKR7B11 5/8&quot; spark plug socket Torque wrench Ratchet and extensions Dielectric grease Optional Anti-seize Optional Specs\nSpark plug NGK ILZKR7B11 (or equivalent iridium) Gap Pre-gapped, verify before install Torque 18 N\xB7m / 13 ft-lb Torque Values\nComponent Torque Spark plugs 18 N\xB7m / 13 ft-lb Supplies# Accessing the Plugs# Removing the Old Plugs# Installing the New Plugs# Wrap-Up# ",
+        content: " Tools and Supplies\nItem Notes NGK Iridium spark plugs 4x, Part # ILZKR7B11 5/8&quot; spark plug socket Torque wrench Ratchet and extensions Dielectric grease Optional Anti-seize Optional Specs\nSpark plug NGK ILZKR7B11 (or equivalent iridium) Gap Pre-gapped, verify before install Torque 18 N\xB7m / 13 ft-lb Torque Values\nComponent Torque Spark plugs 18 N\xB7m / 13 ft-lb Supplies# Accessing the Plugs# Removing the Old Plugs# Installing the New Plugs# Wrap-Up# "
+      }
+    ).add(
+      {
+        id: 2,
+        href: "/blog/serpentine-belt/",
+        title: "2017 Subaru Outback 2.5i - Serpentine Belt Replacement",
+        description: "The belt was squealing on cold/damp mornings. Since I had never replaced it and I am almost at 90k it seemed like a simple thing to tackle. It wasn&rsquo;t on the dealer&rsquo;s list. I vaguely remember them mentioning it a while back during an oil change service but I blew it off (because it hadn&rsquo;t started squealing and I&rsquo;m sure they quoted me $350).\nThis is one of the easiest things you can replace. It\u2019s a $30 belt, and to get it off, you just need a 15mm wrench/socket to move the tensioner to put slack on the belt. Then it\u2019s just a matter of routing the belt properly.\n",
+        content: "The belt was squealing on cold/damp mornings. Since I had never replaced it and I am almost at 90k it seemed like a simple thing to tackle. It wasn&rsquo;t on the dealer&rsquo;s list. I vaguely remember them mentioning it a while back during an oil change service but I blew it off (because it hadn&rsquo;t started squealing and I&rsquo;m sure they quoted me $350).\nThis is one of the easiest things you can replace. It\u2019s a $30 belt, and to get it off, you just need a 15mm wrench/socket to move the tensioner to put slack on the belt. Then it\u2019s just a matter of routing the belt properly.\nThere is a little plastic shroud at the top of the engine that covers it. A 10mm wrench removes the single bolt holding it on. The opposing side is just a little push-in plastic piece that pops out when you give it a tug.\nThe hardest part about this is finding a belt diagram worth a shit on the internet. I never found a diagram under my hood, and there are a ton of diagrams, but only a handful actually match the 2017 2.5L Outback.\nTools and Supplies\nItem Notes OEM serpentine belt PN:23780AA140 Check routing diagram before ordering Belt routing diagram Under hood or in manual 15mm wrench / socket For tensioner Breaker bar Not strictly needed, but a long handle makes it easy to manipulate the tensioner Specs\nBelt part # 23780AA140 Belt name 2015-2019 Subaru Serpentine Belt Price $38.81 Belt Routing Diagram# This is the belt routing diagram that matched my 2017 2.5L Outback Limited\nI&rsquo;d recommend take a picture of your car&rsquo;s belt before you get started just in case. Thats what I did and it came in handy when I immediately forgot how it was routed. Here is the pic I took of the belt before I got started:\nReplacing the belt# Pic of the shroud with the single bolt you need to remove:\nYou can see how old my belt is by the look of it:\nInstallation Tip Start at the water pump, go to the AC compressor, then go around the idler and the crank pulley. Leave the tensioner and alternator until the end. Get it semi-started around the tensioner, use your socket to give it as much slack as possible, and then route around the alternator. Make sure the grooves fit in the grooved pulleys properly. Make sure nothing is rubbing on anything, that the grooved pulleys are mating well with the grooved part of the belt, and that the smooth portions are around the smooth tensioner and idler pulleys.\nI started it up without the shroud on just to check and listen for anything. I shut it off and reinspected. If everything looks good (mine did), then put the shroud back on and call it good!\nAnother tip I read online: throw your old belt in the back with your spare tire just in case, assuming it\u2019s not completely trashed. It\u2019s better to have a backup in a pinch, and if you\u2019ve completely screwed up this belt change, you might need it sooner rather than later!\n"
+      }
+    ).add(
+      {
+        id: 3,
         href: "/blog/coolant-flush/",
         title: "2017 Subaru Outback 2.5i - Coolant Flush",
         description: " This is one of the easiest DIY maintenance things you can do your Subaru. I believe the dealership wanted to charge me $495 to do it. To DIY its about ~$40 in OEM coolant (from the dealership) and $30 in parts/tools. You could probably get by without the special funnel but it makes &lsquo;bleeding&rsquo; the system more straightforward.\nLike the CVT Fluid change, I did a lot of research and consolidated it into a list of steps then had ChatGPT organize it into a printable procedure PDF.\n",
@@ -900,7 +924,7 @@
       }
     ).add(
       {
-        id: 1,
+        id: 4,
         href: "/blog/cvt-fluid-flush-pt1/",
         title: "2017 Subaru Outback 2.5i - CVT Fluid Drain and Fill",
         description: "One of the first &lsquo;big&rsquo; maintenance items I decided to tackle as part of my 88k maintenance adventure was the CVT transmission fluid flush. I did tons of research and watched a handful of youtube videos. Its a pretty straightforward process. I wrote up the procedure, as I understood it from all of my research, then had ChatGPT verify it and format it for me and put it into a guide I could follow.\n",
@@ -908,7 +932,7 @@
       }
     ).add(
       {
-        id: 2,
+        id: 5,
         href: "/projects/88k-maintenance-adventure/",
         title: "88,000 Mile Car Maintenance Adventure",
         description: "For the last couple of weeks I&rsquo;ve been watching car restoration videos on YouTube. I got sucked into a YouTube rabbit hole after my 3-year-old daughter caught me surfing Reddit on my phone and wanted to watch the video I was watching. It was an old Land Cruiser restoration video. This specific video became an after-dinner event for the next couple of weeks at my house.\nMy wife needed an oil change and her car still has the free dealership oil changes. I decided to take mine in as well because I paid $175 to continue my &ldquo;MVP Service&rdquo; plan for another 2 years.\n",
@@ -916,7 +940,7 @@
       }
     ).add(
       {
-        id: 3,
+        id: 6,
         href: "/recipes/italian-sausage-tortellini-soup/",
         title: "Italian Sausage Tortellini Soup",
         description: "My wife found this recipe on instagram or someplace and has made it a few times. It&rsquo;s fantastic and its relatively easy to make. The original recipe calls for gnocchi, but my wife, who doesn&rsquo;t like the texture of gnocchi, &lsquo;accidentally&rsquo; grabbed 3 cheese Tortellini the first time she made this and thats the way we tend to make it.\nSo, you can make it with Tortellini or gnocci.\nIngredients# 1 lb ground mild Italian sausage 8 oz bag of spinach, roughly chopped (or hand-shredded) 2 tbsp minced garlic 2 cups low-sodium chicken broth 2 cups half-and-half (or heavy cream) 3 oz grated Parmesan 1 package of 3 cheese Tortellini 1 tbsp tomato paste 1 tsp olive oil 1 tsp salt 1 tsp pepper 1 tsp Italian seasoning 1 tsp oregano 1 tsp parsley 1 tsp crushed red pepper flakes 1 tsp onion powder 1 tsp garlic powder Instructions# 1. Heat oil &amp; garlic# Add 1 tsp olive oil to a large pot or Dutch oven over medium heat. Add the minced garlic and cook until fragrant.\n",
@@ -924,7 +948,7 @@
       }
     ).add(
       {
-        id: 4,
+        id: 7,
         href: "/projects/voxdex-ai-transcription/",
         title: "AI-Powered Podcast Transcription System",
         description: "AI Auto Transcription System# Introduction# About two years ago, right as the LLM craze was really popping off, I stumbled on WhisperAI&ndash;a tool released by OpenAI that let you transcribe audio (voice-to-text). I actually uncovered it when I was looking at a way to dictate some of my personal notes in Neovim (vimwiki). I found nerd-dictation [https://github.com/ideasman42/nerd-dictation] which was super amazing, but didn&rsquo;t work on my macbook and died on me as linux began the march away from x11 to wayland. Nerd-dictation required some of the security&hellip;&ldquo;openness&rdquo; that X11 afforded. I switched to wayland to get something working on my Pop_OS! machine, and when I did that, I lost my ability to use nerd-dictation.\n",
@@ -932,7 +956,7 @@
       }
     ).add(
       {
-        id: 5,
+        id: 8,
         href: "/recipes/roasted-tomato-burrata-dip/",
         title: "Roasted Tomato & Burrata Dip with Garlic Crostinis",
         description: "Stoney made this during his night to cook during the OBX trip in 2025. Ripe bursted cherry tomatoes, stir in burrata or stracciatella, and scoop it all up with crispy garlic crostinis.\nIngredients# # For the dip 2 cups cherry or grape tomatoes 2 Tbsp olive oil (or enough to coat the baking dish) \xBD tsp salt (or to taste) \xBC tsp freshly ground black pepper Pinch of red pepper flakes (optional, for heat) 1\u20132 cloves garlic, minced 1 Tbsp chopped fresh parsley 1 tsp dried oregano (or 1 Tbsp fresh, chopped) 1 burrata (or equivalent amount of stracciatella / burrata filling) Handful of fresh basil leaves, torn 2 Tbsp freshly grated Parmesan (more for serving, optional) # For the garlic crostinis 1 French baguette (or similar crusty bread) 2\u20133 Tbsp butter, softened 1 clove garlic, minced Pinch of salt 1 Tbsp chopped parsley 1 Tbsp grated Parmesan (optional) Instructions# 1. Preheat &amp; prep# Preheat your oven to 425 \xB0F (220 \xB0C).\n",
@@ -940,7 +964,15 @@
       }
     ).add(
       {
-        id: 6,
+        id: 9,
+        href: "/blog/shortcode-examples/",
+        title: "Shortcode Examples",
+        description: "Testing the new shortcodes implementation",
+        content: "Shortcode Examples# This page demonstrates the newly implemented shortcodes.\nAdmonition Shortcodes# Note# Important Note This is a note admonition. It&rsquo;s useful for highlighting important information that readers should pay attention to. Info# Information This is an info admonition. Use this for general information that provides context or additional details. Tip# Pro Tip This is a tip admonition. Share helpful tips and tricks with your readers using this style. Success# Great Success This is a success admonition. Use this to highlight positive outcomes or successful implementations. Warning# Warning This is a warning admonition. Use this to alert readers about potential issues or things to be careful about. Error# Error This is an error admonition. Use this to highlight critical issues or problems that need attention. Example# Example Usage This is an example admonition. Use this to showcase code examples or demonstrate concepts.\necho &#34;Hello, World!&#34; Center Quote# The best way to predict the future is to invent it. Mermaid Diagrams# Flowchart# graph LR; A[Hard edge] -->|Link text| B(Round edge) B --> C{Decision} C -->|One| D[Result one] C -->|Two| E[Result two] Sequence Diagram# sequenceDiagram participant Alice participant Bob Alice->>John: Hello John, how are you? loop Healthcheck John->>John: Fight against hypochondria end Note right of John: Rational thoughts prevail! John-->>Alice: Great! John->>Bob: How about you? Bob-->>John: Jolly good! State Diagram# stateDiagram-v2 [*] --> Still Still --> [*] Still --> Moving Moving --> Still Moving --> Crash Crash --> [*] Class Diagram# classDiagram Animal <|-- Duck Animal <|-- Fish Animal <|-- Zebra Animal : +int age Animal : +String gender Animal: +isMammal() Animal: +mate() class Duck{ +String beakColor +swim() +quack() } class Fish{ -int sizeInFeet -canEat() } class Zebra{ +bool is_wild +run() } "
+      }
+    ).add(
+      {
+        id: 10,
         href: "/blog/open-webui/",
         title: "Using open-webui as a local ChatGPT replacement",
         description: "Using open-webui# I set up a local LLM using ROCm on my desktop in my last post. So I have the LLM running locally, but its pretty clunky and as a paying user of ChatGPT, I want that cleaner UI/UX. Enter open-webui. This is exactly what I was looking for as a front-end for the ollama server I set up.\nI decided to go with the Docker setup.\n",
@@ -948,7 +980,7 @@
       }
     ).add(
       {
-        id: 7,
+        id: 11,
         href: "/blog/rocm-on-pop/",
         title: "Running an LLM locally on Pop!_OS with ROCm support",
         description: "Running ROCm on Pop!# This has gotten sooo much easier than when I tried to set this up 2 years ago. ROCm has come a long way, but the support and tooling has advanced as well. Now you don&rsquo;t have to jump through tons of hoops to get AI libraries and software to work with ROCm. The last time I tried this, I needed to add ubuntu repos, edit my /etc/os-release file to pretend I was using ubuntu&quot;, and do a rain-dance to get my Raedeon 6900xt in a usable state.\n",
@@ -956,7 +988,15 @@
       }
     ).add(
       {
-        id: 8,
+        id: 12,
+        href: "/blog/pop-refresh/",
+        title: "Pop Refresh",
+        description: "Pulled the trigger on a Pop_OS refresh# I&rsquo;ve been having an issue with Apex Legends. It&rsquo;s gotten progressively worse of the last few months to the point where it just doesn&rsquo;t work anymore. Thats the story for another blog post but I decided to go &ldquo;nuclear&rdquo; and do a pop-refresh https://support.system76.com/articles/pop-recovery\nI figured it wouldn&rsquo;t be a bad idea to clear out all of those config tweaks, orphaned programs, and all of that other stuff that, over years of use, builds up on your system.\n",
+        content: "Pulled the trigger on a Pop_OS refresh# I&rsquo;ve been having an issue with Apex Legends. It&rsquo;s gotten progressively worse of the last few months to the point where it just doesn&rsquo;t work anymore. Thats the story for another blog post but I decided to go &ldquo;nuclear&rdquo; and do a pop-refresh https://support.system76.com/articles/pop-recovery\nI figured it wouldn&rsquo;t be a bad idea to clear out all of those config tweaks, orphaned programs, and all of that other stuff that, over years of use, builds up on your system.\nThe Pop Refresh Instructions Didn&rsquo;t Work For Me Because# The pop refresh instructions didn&rsquo;t work for me because:\nThe recovery partition was b0rked\nI had to create a live usb and do the refresh from there. Nothing I did could fix the recovery partition and it would just boot my into busybox initramfs where I couldn&rsquo;t do anything. It was a little disconcerting at first and a little panic inducing because you dont know wtf happened or if your data just got all screwed. I kept reminding myself I have several backups so if I had to start from scratch I could.\nBut, with my trusty live USB, I was able to execute the &ldquo;refresh&rdquo; install.\nWhat none of the instructions tell you\nWhat none of the instructions tell you is that when it logs back in you have to create a new account as if you are starting from scratch. Once you do that, you have to edit a users file because they make your old account a &ldquo;system account&rdquo;, so it wont show up in the gdm login page. Once you do that it shows up along with the new user you just created. Thankfully, everything is where you left it.\nAll non-system apps are gone\nAll non-system apps are gone. They warn you about this but what they dont tell you is that flatpaks dont go anywhere. And that makes sense because they are saved in your home folder and nothing in there was touched, but its worth nothing that any flatpaks will still be there and still function.\nSignal though kinda wigged out on me\nSignal though kinda wigged out on me. I ended up making a backup of the flatpak structure then reinstalling it. Obviously it doesn&rsquo;t retain the history, but I found I could copy and paste the /.var/app/org.signal.Signal/config/Signal from the backup to the new installs config directory and it worked&ndash;it pulled in all of my old messages etc. Note: I had already logged in and got Signal up and running before I moved the data from the backup. I named it the same thing as before (but I am not sure if that matters). This is probably worth a post by itself tbh.\nNeovim was a bit of a pain to reinstall\nNeovim was a bit of a pain to reinstall. I dont recall how I had installed it before but I reinstalled from source this time which changed the versions and broke my config. I was using a fairly modified kickstart.nvim config so I had to work through a few issues before I got it up and running again.\nSyncthing was super easy to reinstall\nSyncthing was super easy to reinstall actually once I remembered the steps. After I installed the .deb I went to the admin url and it just had all of my settings&ndash;which was nice.\nTailscale seems to have installed pretty seamlessly\nTailscale seems to have isntalled pretty seamlessly. It did create another version of my machine. So I had to manually remove the old host info, but I made sure I grabbed the acl settings from it beforehand. Hopefully I didn&rsquo;t miss anything but time will tell and its all fixable.\nPrograms I Had to Reinstall:# Neovim compile pre-requisites htop neofetch openssh-server - it seems like the known-hosts file will need to be updated for everything that connects to it. makes sense, but a little annoying. ripgrep zsh fzf syncthing tailscale dejadup - I had the option to install the flatpak, but because I didn&rsquo;t still have it on my system, I knew I installed it via .deb previously and I wanted to see if it would just use my config settings (that should still exist)&ndash; which it did. I guess in the future I could move to the flatpak version and it would remain installed during a refresh. steam &ndash; I used the deb. I&rsquo;ve bounced around from flatpak to deb multiple times. I gave the deb a shot because I have been having plenty of issues with apex on steam and getting banned from The Finals because ??? I&rsquo;m sure there will be plenty more programs I&rsquo;ll realize I need as I use my computer, but it&rsquo;s nice to start with a clean slate (edit: like all of the pre-requisites to run a hugo site like hugo, go, git, etc).\n"
+      }
+    ).add(
+      {
+        id: 13,
         href: "/recipes/stuffed-peppers/",
         title: "Stuffed Peppers",
         description: "These stuffed peppers are filled with a hearty mix of rice, ground meat, and tomato, then baked until the peppers are tender and everything comes together in one simple dish.\n",
@@ -964,7 +1004,7 @@
       }
     ).add(
       {
-        id: 9,
+        id: 14,
         href: "/blog/migration-pt2/",
         title: "Migration Pt2",
         description: "Updating DNS Records# This was a fairly straightforward process:\nLog into GitHub &gt; Go to your public repo &gt; Settings &gt; Pages: and enter your domain in the Custom Domain section Add your domain name www.wesgould.com Log into your DNS provider. Delete CNAME / A-RECORDs for www.wesgould.com and wesgould.com to avoid conflicts with the new records. ADD CNAME RECORD for www.wesgould.com. Add A-RECORD for wesgould.com. To create A records, point your apex domain to the IP addresses for GitHub Pages: - 185.199.108.153 - 185.199.109.153 - 185.199.110.153 - 185.199.111.153 ",
@@ -972,7 +1012,7 @@
       }
     ).add(
       {
-        id: 10,
+        id: 15,
         href: "/recipes/homebakes/",
         title: "Homebakes",
         description: "Home Bakes# Family recipe from Oma passed down.\nIngredients# 2 cups Sugar 4 Tbls. Cocoa 1 stick Butter \xBD cup Milk \xBD cup Peanut Butter 2 \xBD cups 1 Minute Oatmeal Directions:# 1. Lay down two strips of waxed paper. (Foil can also be used in a pinch.)\n2. In a large saucepan, combine sugar and cocoa. Stir until well blended.\n",
@@ -980,7 +1020,7 @@
       }
     ).add(
       {
-        id: 11,
+        id: 16,
         href: "/blog/migrating-to-hugo/",
         title: "Migrating to Hugo",
         description: "It&rsquo;s been an&hellip;adventure.\nWhy Switch from Publii to Hugo?# I am switching from Publii to Hugo because I wanted to take advantage of the text notes I was already taking with Vimwiki for my various projects. The Publii interface was nice, but I&rsquo;m already writing notes in a format that doesn&rsquo;t require me to use their WYSIWYG editor. I know that seems lazy, but it&rsquo;s an extra step that caused just enough friction that I wouldn&rsquo;t update the blog.\n",
@@ -988,7 +1028,7 @@
       }
     ).add(
       {
-        id: 12,
+        id: 17,
         href: "/blog/creating-nfs-shares/",
         title: "Creating NFS Shares",
         description: "Creating an NFS share# If you are trying to share between *nix systems, the Network File Servers (NFS) are really easy to set up. Note: If you are planning on sharing with Windows machines, SMB/Samba is a better option.\nIt should also be noted that NFS doesn&rsquo;t restrict, by default, to individual users. It limits to IPs and IP ranges&ndash;which makes it ideal for secure networks, but less-than-ideal for non-secure / public networks.\n",
@@ -996,7 +1036,7 @@
       }
     ).add(
       {
-        id: 13,
+        id: 18,
         href: "/recipes/enchilada-casserole/",
         title: "Enchilada Casserole",
         description: "One of Mom\u2019s favorite recipes from Kris H. &amp; Robin K.\nIngredients# 2 cups grated cheddar cheese 1/2 cup finely chopped green onion 2 cans cream of chicken soup 1 cup sour cream 1 can chopped green chilies 1/2 tsp salt 2 cans chicken (all white meat) OR 4 chicken breasts, cooked and chopped 12 corn tortillas, hand shredded Important Ingredient Note Use Chopped Green Chilies from the Mexican Food section - these come in very small cans. DO NOT GET FIRE-ROASTED versions! The cans look almost identical but the taste is completely different. Chicken Cooking Tip Cook raw chicken breasts by placing in a sauce pan, just cover with water, and bring to boil. Turn heat to low and simmer for 30 minutes to 1 hour until no pink remains in center. Remove chicken, cool, and chop into bite-sized pieces. This keeps the meat tender and moist. Instructions# Preheat oven to 350\xB0F.\n",
@@ -1004,7 +1044,7 @@
       }
     ).add(
       {
-        id: 14,
+        id: 19,
         href: "/recipes/cincinatti-chili/",
         title: "Cincinatti Chili",
         description: "Ingredients# # For the chili 2 pounds ground beef (80:20 is good; 90:10 works as well and will obviously be less fatty) 1 6-ounce can tomato paste 4 cups water 1 (8-ounce) can tomato sauce 1 large onion, minced 6 cloves garlic, minced (pre-minced in the jar is fine) 3 tablespoons chili powder 1 teaspoon cumin 1 teaspoon cinnamon 3/4 teaspoon ground allspice 1/4 teaspoon ground cloves 1/2 teaspoon cayenne 2 teaspoons kosher salt 2 tablespoons Worcestershire sauce TIP: Measure all of your ingredients first. I usually set all of the spices on my left with a small bowl in front of me. As I measure and put each ingredient into the bowl, I move the spice bottle to the right side so I know I&rsquo;ve added it. It&rsquo;s really easy to forget which spices you&rsquo;ve measured out!\n",
@@ -1012,11 +1052,35 @@
       }
     ).add(
       {
-        id: 15,
+        id: 20,
+        href: "/blog/embed-video-files/",
+        title: "Embed Video Files",
+        description: "Use the video shortcode to embed your video files from Hugo Page Resources.\n",
+        content: "Use the video shortcode to embed your video files from Hugo Page Resources.\nWith a page bundle looking like the following:\nembed-videos/ |-- index.md |-- my-video.jpg |-- my-video.mp4 |-- my-video.webm You can embed my-video like this:\n{{&lt; video src=&#34;my-video&#34; autoplay=&#34;true&#34; controls=&#34;false&#34; loop=&#34;true&#34; &gt;}} The shortcode looks for media files matching the filename my-video*. For each video MIME type file, a &lt;source&gt; element is added. The first image MIME type file is used as poster (thumbnail). It will render the following HTML:\n&lt;video autoplay loop poster=&#34;/blog/embed-videos/my-video.jpg&#34; width=&#34;100%&#34; playsinline &gt; &lt;source src=&#34;/blog/embed-videos/my-video.mp4&#34; type=&#34;video/mp4&#34; /&gt; &lt;source src=&#34;/blog/embed-videos/my-video.webm&#34; type=&#34;video/webm&#34; /&gt; &lt;/video&gt; You can set a Markdown caption, wrapping the &lt;video&gt; inside a &lt;figure&gt;.\nAdditionally, the shortcode allows you to set the following attributes:\nAttribute Default autoplay false controls true height loop false muted true preload width 100% playsinline true Learn more about the &lt;video&gt; attributes here.\n"
+      }
+    ).add(
+      {
+        id: 21,
+        href: "/blog/image-optimization/",
+        title: "Image Optimization",
+        description: "The theme optimizes images by default with a custom Hugo&rsquo;s markdown render hook:\nThe theme creates resized versions for each image, ranging from 100 to 700 pixels wide. It generates WebP versions for each size if the original image format isn&rsquo;t WebP. The theme keeps the original file format as a fallback for browsers that don&rsquo;t support the WebP format. Images in SVG format are embedded as-is. Blog Post Cover Images# Use the front matter of your posts to add cover images:\n",
+        content: "The theme optimizes images by default with a custom Hugo&rsquo;s markdown render hook:\nThe theme creates resized versions for each image, ranging from 100 to 700 pixels wide. It generates WebP versions for each size if the original image format isn&rsquo;t WebP. The theme keeps the original file format as a fallback for browsers that don&rsquo;t support the WebP format. Images in SVG format are embedded as-is. Blog Post Cover Images# Use the front matter of your posts to add cover images:\n--- cover: src: alexandre-van-thuan-mr9FouttLGY-unsplash.jpg alt: The interior of Stadsbiblioteket in Stockholm - Gunnar Asplunds library from 1928. The architecture is a transition between neoclassicism and functionalism. caption: By [Alexandre Van Thuan](https://unsplash.com/photos/mr9FouttLGY) --- Captions# Add captions to your inline images like this:\n--- ![Alt text](image-url.jpg &#34;Caption with **markdown support**&#34;) --- The main library in Vancouver is architecturally significant. The angles and levels contour together to produce a trippy scene. It&rsquo;s pretty from the outside but stunning from the inside. By Aaron Thomas JPEG and WebP Quality# The default quality is 75%. See the official Image Processing Config Hugo docs. Change it by adding the following to the config.toml file:\n[imaging] quality = 75 Resizing# By default, the theme creates resized versions of images ranging from 300 to 700 pixels wide in increments of 100 pixels. Override the resize behavior by adding the following to the config.toml file:\n[params] [params.imageResize] min = 300 max = 700 increment = 100 Lazy Loading# Images are lazily loaded by default using the loading=&quot;lazy&quot; attribute on HTML img tags.\n"
+      }
+    ).add(
+      {
+        id: 22,
         href: "/blog/turkey-trot-2019/",
         title: "Turkey Trot 2019",
         description: "Turkey Trot 2k19# Date: November 28, 2019\nThe family decided to go to a Turkey Trot before we ate Thanksgiving dinner. I bet my niece $1 that I would run it in under 40 minutes. I got &lt; 33 minutes (unofficially\u2014the times aren&rsquo;t posted yet).\nAbout 900 people signed up for this particular 5k!\nThe 2nd prize was a huge pie (and a $50 Dick&rsquo;s gift card, but you can&rsquo;t eat that so it&rsquo;s less important).\n",
         content: "Turkey Trot 2k19# Date: November 28, 2019\nThe family decided to go to a Turkey Trot before we ate Thanksgiving dinner. I bet my niece $1 that I would run it in under 40 minutes. I got &lt; 33 minutes (unofficially\u2014the times aren&rsquo;t posted yet).\nAbout 900 people signed up for this particular 5k!\nThe 2nd prize was a huge pie (and a $50 Dick&rsquo;s gift card, but you can&rsquo;t eat that so it&rsquo;s less important).\nDisclaimer: This post was narrated by my chief editor\u2014 my niece.\nThis article was updated on August 12, 2020\n"
+      }
+    ).add(
+      {
+        id: 23,
+        href: "/blog/placeholder-text/",
+        title: "Placeholder Text",
+        description: "Lorem Ipsum Dolor Si Amet",
+        content: "Lorem est tota propiore conpellat pectoribus de pectora summo.\nRedit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.\nExierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.\nComas hunc haec pietate fetum procerum dixit Post torum vates letum Tiresia Flumen querellas Arcanaque montibus omnes Quidem et Vagus elidunt# The Van de Graaf Canon\nMane refeci capiebant unda mulcebat# Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. Faces illo pepulere tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.\nIubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.\nEurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel mitis temploque vocatus, inque alis, oculos nomen non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides parte.\n"
       }
     );
     search.addEventListener("input", function() {

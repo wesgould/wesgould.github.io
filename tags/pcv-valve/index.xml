@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pcv Valve on wesgould.com</title>
-    <link>http://localhost:1313/tags/pcv-valve/</link>
+    <link>https://wesgould.github.io/tags/pcv-valve/</link>
     <description>Recent content in Pcv Valve on wesgould.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2003</copyright>
-    <lastBuildDate>Tue, 05 May 2026 00:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/pcv-valve/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Apr 2026 00:00:00 -0500</lastBuildDate>
+    <atom:link href="https://wesgould.github.io/tags/pcv-valve/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2017 Subaru Outback 2.5i - PCV Valve Replacement</title>
-      <link>http://localhost:1313/blog/pcv-valve/</link>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/blog/pcv-valve/</guid>
-      <description>&lt;!-- TODO: write up the PCV valve replacement story --&gt;&#xA;&lt;p&gt;The PCV valve wasn&amp;rsquo;t on the dealership&amp;rsquo;s list but MrSubaru flagged it as an easy and important item to swap at this mileage. A $15 part and a few minutes of work.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tools and Supplies&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Item&lt;/th&gt;&#xA;          &lt;th&gt;Notes&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Subaru PCV valve&lt;/td&gt;&#xA;          &lt;td&gt;Part # 11810AA130&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Pliers&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Rags / shop towels&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Specs&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PCV valve&lt;/td&gt;&#xA;          &lt;td&gt;Part # 11810AA130&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Replacement interval&lt;/td&gt;&#xA;          &lt;td&gt;~60k miles&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;supplies&#34;&gt;Supplies&lt;a href=&#34;#supplies&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;!-- TODO: add supplies section + photos --&gt;&#xA;&lt;h2 id=&#34;locating-the-pcv-valve&#34;&gt;Locating the PCV Valve&lt;a href=&#34;#locating-the-pcv-valve&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;!-- TODO: describe where to find it on the 2.5i --&gt;&#xA;&lt;h2 id=&#34;replacement&#34;&gt;Replacement&lt;a href=&#34;#replacement&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;!-- TODO: add removal/install section + photos --&gt;&#xA;&lt;h2 id=&#34;wrap-up&#34;&gt;Wrap-Up&lt;a href=&#34;#wrap-up&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;!-- TODO: final notes — was the old one rattling? clogged? --&gt;</description>
+      <link>https://wesgould.github.io/blog/pcv-valve/</link>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 -0500</pubDate>
+      <guid>https://wesgould.github.io/blog/pcv-valve/</guid>
+      <description>&lt;p&gt;The PCV valve wasn&amp;rsquo;t on the dealership&amp;rsquo;s list but one of the youtuber&amp;rsquo;s that I stumbled on while learning how to do all of the maintenance, MrSubaru1387 (&lt;a&#xA;  href=&#34;https://www.youtube.com/@MrSubaru1387%29&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;https://www.youtube.com/@MrSubaru1387)&lt;/a&gt;, flagged it as an easy and important item to swap at this mileage. It&amp;rsquo;s a $15 part and a few minutes of work.&lt;/p&gt;&#xA;&lt;p&gt;I remember replacing this on my Prelude back in the day.&lt;/p&gt;&#xA;&lt;p&gt;Here is the &lt;a&#xA;  href=&#34;files/subaru_pcv_replacement_guide.pdf&#34;&#xA;  &#xA;  &#xA;&gt;pdf guide I made&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
