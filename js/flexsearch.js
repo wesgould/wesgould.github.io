@@ -893,18 +893,18 @@
     index.add(
       {
         id: 0,
-        href: "/blog/pcv-valve/",
-        title: "2017 Subaru Outback 2.5i - PCV Valve Replacement",
-        description: "The PCV valve wasn&rsquo;t on the dealership&rsquo;s list but one of the youtuber&rsquo;s that I stumbled on while learning how to do all of the maintenance, MrSubaru1387 (https://www.youtube.com/@MrSubaru1387), flagged it as an easy and important item to swap at this mileage. It&rsquo;s a $15 part and a few minutes of work.\nI remember replacing this on my Prelude back in the day.\nHere is the pdf guide I made.\n",
-        content: "The PCV valve wasn&rsquo;t on the dealership&rsquo;s list but one of the youtuber&rsquo;s that I stumbled on while learning how to do all of the maintenance, MrSubaru1387 (https://www.youtube.com/@MrSubaru1387), flagged it as an easy and important item to swap at this mileage. It&rsquo;s a $15 part and a few minutes of work.\nI remember replacing this on my Prelude back in the day.\nHere is the pdf guide I made.\nTools and Supplies\nItem Notes Subaru PCV valve Part # 11810AA130 Pliers Rags / shop towels RTV Sealant It had some RTV type sealant on the old one so I am including it on the replacement valve Replacement Hose Part #: 99071AD96A Deep 19mm socket A medium depth would work, but standard will not 3/8&quot; ratchet + extension You&rsquo;ll need a long extension especially if you dont want to remove the intake Locating the PCV Valve# You dont need to take anything apart to get to it, but it might be a bit easier if you take the intake off.\nThese are &ldquo;after&rdquo; pics because I am terrible at &lsquo;content creation&rsquo; but to give you an idea of where its located:\n&lt;IMG_4868&gt;\nFollow that hose off of the throttle body down to the top of the engine:\n&lt;IMG_4869&gt;\nReplacement# Replacing it is super simple. Use a deep 19mm socket to take it off. There are some people that clean them with parts cleaner and put them back in but OEM is $15-20 new so thats what I did.\nHere is what the old one looked like. You can see the remnants of the RTV they had on it: &lt;img 4860,4861&gt;\nAs you can see from mine it wasn&rsquo;t too bad and if I shook it you could still hear the valve moving so it wasn&rsquo;t gummed up.\n&lt;img 4869&gt;\nI was able to get the hose off without cracking it, but when attempting to put it back on it cracked immemdiately.\n&lt;img 4862&gt;\nThats why I highly recommend preemptively buying a replacement hose. That hose specifically seemed more brittle than most of the other hoses I&rsquo;ve manipulated during these projects.\nIf your dealership&rsquo;s parts department is anyhting like the one near me, if you dont use it, you can return it. So, like I said, its nice to have one handy if it breaks. &lt;IMG_4863&gt;\nReinstalling it is as easy as:\nSmall amount of RTV around the PCV threads Screw it back it and torque to spec (which was anywhere from 12ft lb to 22ft lb from the articles I read. I used 18 ft lbs) Connect the new vacuum host Thats it. Easy Peasy.\n"
-      }
-    ).add(
-      {
-        id: 1,
         href: "/blog/spark-plugs/",
         title: "2017 Subaru Outback 2.5i - Spark Plug Replacement",
         description: " Tools and Supplies\nItem Notes NGK Iridium spark plugs 4x, Part # ILZKR7B11 5/8&quot; spark plug socket Torque wrench Ratchet and extensions Dielectric grease Optional Anti-seize Optional Specs\nSpark plug NGK ILZKR7B11 (or equivalent iridium) Gap Pre-gapped, verify before install Torque 18 N\xB7m / 13 ft-lb Torque Values\nComponent Torque Spark plugs 18 N\xB7m / 13 ft-lb Supplies# Accessing the Plugs# Removing the Old Plugs# Installing the New Plugs# Wrap-Up# ",
         content: " Tools and Supplies\nItem Notes NGK Iridium spark plugs 4x, Part # ILZKR7B11 5/8&quot; spark plug socket Torque wrench Ratchet and extensions Dielectric grease Optional Anti-seize Optional Specs\nSpark plug NGK ILZKR7B11 (or equivalent iridium) Gap Pre-gapped, verify before install Torque 18 N\xB7m / 13 ft-lb Torque Values\nComponent Torque Spark plugs 18 N\xB7m / 13 ft-lb Supplies# Accessing the Plugs# Removing the Old Plugs# Installing the New Plugs# Wrap-Up# "
+      }
+    ).add(
+      {
+        id: 1,
+        href: "/blog/idler-pulley-replacement/",
+        title: "2017 Subaru Outback 2.5i - Idler Pulley Replacement",
+        description: " Tools and Supplies\nItem Notes Replacement idler pulley ~$37 Replacement bolt and plate You can re-use your old bolt and plate but it was cheap to get new 15mm wrench / socket For releasing the tensioner 14mm wrench / socket For idler pulley bolt Torque wrench 2013\u20132019 Subaru Idler Pulley 23770AA07A 2013\u20132019 Subaru Idler Pulley Bolt 23771AA04A 2011\u20132024 Subaru Idler Pulley Cover 23772AA050 Specs\n",
+        content: " Tools and Supplies\nItem Notes Replacement idler pulley ~$37 Replacement bolt and plate You can re-use your old bolt and plate but it was cheap to get new 15mm wrench / socket For releasing the tensioner 14mm wrench / socket For idler pulley bolt Torque wrench 2013\u20132019 Subaru Idler Pulley 23770AA07A 2013\u20132019 Subaru Idler Pulley Bolt 23771AA04A 2011\u20132024 Subaru Idler Pulley Cover 23772AA050 Specs\nIdler pulley bolt torque 30 ft-lb Supplies# Replacement# When I changed the serpentine belt previously I noticed my idler pulley was making a bit of a noise when I spun it. A slight grinding/not-smoothly-turning. Since it has almost 90K on it and its a $30 part I just ordered a new one. I also ordered a new bolt and plate that comes with it just to replace the whole set.\nIt&rsquo;s pretty straightforward. You release the serpentine belt using a 15mm then use a 14mm to take off the idler pulley. Its only on at ~30 ft-lb so it broke free pretty easily. Then its a matter of putting the other one on.\nHere is a picture of the crusty old pulley# I took note of the plate because it looks like its directional. The &ldquo;nipples&rdquo; or indents are pointed out. So, when I put my other one back on I made sure they were out as well.\nI followed the simple advice from my dad that I believe his dad told him: when you take a part out to replace it, hold it up to the new part to make sure its the same. Everything looked good \u2014 the pulleys were the same, the bolts were the same length, and the plate was the same.\nSo I screwed it in, torqued it to spec (30 ft-lb), and put the serpentine belt back on\n\u2014 which annoyingly I found trickier this time around than just replacing it. The order of operations matters and you have to start with the water pump and ultimately end with the alternator/tensioner pulleys. A good write up on the serpentine belt and a routing diagram are here.\nThe first start-up I thought I heard a noise (like a whining) which had me worried I got a bad pulley or I did it wrong, so I turned it off, triple checked everything, and then tried again. When I started it back up I didn&rsquo;t hear it again \u2014 I think I was just being super noise-sensitive after the replacement. There is an outside shot my old pulley was making a noise that covered up another sound that I can now hear. Either way, I&rsquo;m not sure I hear it now and I definitely don&rsquo;t hear it from inside the car. I&rsquo;ll just call it good and monitor for any changes.\n"
       }
     ).add(
       {
@@ -917,6 +917,14 @@
     ).add(
       {
         id: 3,
+        href: "/blog/pcv-valve/",
+        title: "2017 Subaru Outback 2.5i - PCV Valve Replacement",
+        description: "The PCV valve wasn&rsquo;t on the dealership&rsquo;s list but one of the youtuber&rsquo;s that I stumbled on while learning how to do all of the maintenance, MrSubaru1387 (https://www.youtube.com/@MrSubaru1387), flagged it as an easy and important item to swap at this mileage. It&rsquo;s a $15 part and a few minutes of work.\nI remember replacing this on my Prelude back in the day.\nHere is the pdf guide I made.\n",
+        content: "The PCV valve wasn&rsquo;t on the dealership&rsquo;s list but one of the youtuber&rsquo;s that I stumbled on while learning how to do all of the maintenance, MrSubaru1387 (https://www.youtube.com/@MrSubaru1387), flagged it as an easy and important item to swap at this mileage. It&rsquo;s a $15 part and a few minutes of work.\nI remember replacing this on my Prelude back in the day.\nHere is the pdf guide I made.\nTools and Supplies\nItem Notes Subaru PCV valve Part # 11810AA130 Pliers Not strictly necessary but helped when pulling off the old vacuum hose Rags / shop towels RTV Sealant It had some RTV type sealant on the old one so I am including it on the replacement valve. I didn&rsquo;t see anything specifically for my engine to include the sealant but there were some recalls that required new sealant Replacement Hose Part #: 99071AD96A Deep 19mm socket A medium depth would work, but standard will not 3/8&quot; ratchet + extension You&rsquo;ll need a long extension especially if you dont want to remove the intake Locating the PCV Valve# You dont need to take anything apart to get to it, but it might be a bit easier if you take the intake off.\nThese are &ldquo;after&rdquo; pics because I am terrible at &lsquo;content creation&rsquo; but to give you an idea of where its located:\nFollow that hose off of the throttle body down to the top of the engine:\nReplacement# Replacing it is super simple. Use a deep 19mm socket to take it off. There are some people that clean them with parts cleaner and put them back in but OEM is $15-20 new so thats what I did.\nHere is what the old one looked like. You can see the remnants of the RTV they had on it: As you can see from mine it wasn&rsquo;t too bad and if I shook it you could still hear the valve moving so it wasn&rsquo;t gummed up.\nI was able to get the hose off without cracking it, but when attempting to put it back on it cracked immemdiately.\nThats why I highly recommend preemptively buying a replacement hose. That hose specifically seemed more brittle than most of the other hoses I&rsquo;ve manipulated during these projects.\nIf your dealership&rsquo;s parts department is anything like the one near me, if you dont use it, you can return it. So, like I said, its nice to have one handy if it breaks. I struggled to find the part number for this hose online, but the parts department guy new it. Reinstalling it is as easy as:\nSmall amount of RTV around the PCV threads Screw it back it and torque to spec (which was anywhere from 12ft lb to 22ft lb from the articles I read. I used 18 ft lbs) Connect the new vacuum host Thats it. Easy Peasy.\n"
+      }
+    ).add(
+      {
+        id: 4,
         href: "/blog/coolant-flush/",
         title: "2017 Subaru Outback 2.5i - Coolant Flush",
         description: " This is one of the easiest DIY maintenance things you can do your Subaru. I believe the dealership wanted to charge me $495 to do it. To DIY its about ~$40 in OEM coolant (from the dealership) and $30 in parts/tools. You could probably get by without the special funnel but it makes &lsquo;bleeding&rsquo; the system more straightforward.\nLike the CVT Fluid change, I did a lot of research and consolidated it into a list of steps then had ChatGPT organize it into a printable procedure PDF.\n",
@@ -924,7 +932,7 @@
       }
     ).add(
       {
-        id: 4,
+        id: 5,
         href: "/blog/cvt-fluid-flush-pt1/",
         title: "2017 Subaru Outback 2.5i - CVT Fluid Drain and Fill",
         description: "One of the first &lsquo;big&rsquo; maintenance items I decided to tackle as part of my 88k maintenance adventure was the CVT transmission fluid flush. I did tons of research and watched a handful of youtube videos. Its a pretty straightforward process. I wrote up the procedure, as I understood it from all of my research, then had ChatGPT verify it and format it for me and put it into a guide I could follow.\n",
@@ -932,15 +940,15 @@
       }
     ).add(
       {
-        id: 5,
+        id: 6,
         href: "/projects/88k-maintenance-adventure/",
         title: "88,000 Mile Car Maintenance Adventure",
         description: "For the last couple of weeks I&rsquo;ve been watching car restoration videos on YouTube. I got sucked into a YouTube rabbit hole after my 3-year-old daughter caught me surfing Reddit on my phone and wanted to watch the video I was watching. It was an old Land Cruiser restoration video. This specific video became an after-dinner event for the next couple of weeks at my house.\nMy wife needed an oil change and her car still has the free dealership oil changes. I decided to take mine in as well because I paid $175 to continue my &ldquo;MVP Service&rdquo; plan for another 2 years.\n",
-        content: "For the last couple of weeks I&rsquo;ve been watching car restoration videos on YouTube. I got sucked into a YouTube rabbit hole after my 3-year-old daughter caught me surfing Reddit on my phone and wanted to watch the video I was watching. It was an old Land Cruiser restoration video. This specific video became an after-dinner event for the next couple of weeks at my house.\nMy wife needed an oil change and her car still has the free dealership oil changes. I decided to take mine in as well because I paid $175 to continue my &ldquo;MVP Service&rdquo; plan for another 2 years.\nThen the service tech gave me a list of maintenance/service items I needed to have done. This list included:\nCoolant Flush CVT Fluid Change Spark Plugs Front and Rear Differentials Brake Fluid Change In the moment, I told him they could do the diffs and brake fluid (to the tune of $600+). I came in for a free oil change-I didn&rsquo;t come in to drop $2,500+ on maintenance items. At least making sure my brakes and diffs worked seems reasonable, right?\nThat night, after I put my daughter to bed, I turned on YouTube and saw some recommended car restoration and maintenance videos. This made me curious to see how hard it would be to do the work myself.\nTurns out, most of it is incredibly straightforward and doesn&rsquo;t require tons of special tools, and I definitely got ripped off on the diff and brake fluid change. So for the next couple of weekends I plan on doing my CVT fluid change, my coolant flush, my spark plugs, my PCV valve, and my serpentine belt. The last two items on the list are things that the dealership didn&rsquo;t recommend but I discovered I should probably do. Mostly because the drive belt would squeal on cold/damp mornings and according to MrSubaru, the $15 PCV valve is a super easy but super important part to change.\nI haven&rsquo;t done significant work on my cars in a long time. In high school I worked on my Prelude out of necessity and to look cool (which I absolutely was, with my LED windshield washer lights, underglow kit that got me pulled over only to be saved from a ticket by my car overheating and a sympathetic cop, my cold air intake, and fart can exhaust). As an adult, I&rsquo;ve done basic stuff\u2014changed my oil a few times, changed spark plugs\u2014but nothing significant since I never had space or the appropriate tools. The rest of my experience working on cars was as a kid/teen with my dad, where I learned how to hold a flashlight and get yelled at.\nSo the next few blog posts will be about my adventures in car maintenance for my 2017 Outback. To quote the great philosopher Jeremy Clarkson: &ldquo;How hard can it be?&rdquo;\nThe Adventure Log# CVT Fluid Change Coolant Flush Spark Plugs PCV Valve Serpentine Belt "
+        content: "For the last couple of weeks I&rsquo;ve been watching car restoration videos on YouTube. I got sucked into a YouTube rabbit hole after my 3-year-old daughter caught me surfing Reddit on my phone and wanted to watch the video I was watching. It was an old Land Cruiser restoration video. This specific video became an after-dinner event for the next couple of weeks at my house.\nMy wife needed an oil change and her car still has the free dealership oil changes. I decided to take mine in as well because I paid $175 to continue my &ldquo;MVP Service&rdquo; plan for another 2 years.\nThen the service tech gave me a list of maintenance/service items I needed to have done. This list included:\nCoolant Flush CVT Fluid Change Spark Plugs Front and Rear Differentials Brake Fluid Change In the moment, I told him they could do the diffs and brake fluid (to the tune of $600+). I came in for a free oil change-I didn&rsquo;t come in to drop $2,500+ on maintenance items. At least making sure my brakes and diffs worked seems reasonable, right?\nThat night, after I put my daughter to bed, I turned on YouTube and saw some recommended car restoration and maintenance videos. This made me curious to see how hard it would be to do the work myself.\nTurns out, most of it is incredibly straightforward and doesn&rsquo;t require tons of special tools, and I definitely got ripped off on the diff and brake fluid change. So for the next couple of weekends I plan on doing my CVT fluid change, my coolant flush, my spark plugs, my PCV valve, and my serpentine belt. The last two items on the list are things that the dealership didn&rsquo;t recommend but I discovered I should probably do. Mostly because the drive belt would squeal on cold/damp mornings and according to MrSubaru, the $15 PCV valve is a super easy but super important part to change.\nI haven&rsquo;t done significant work on my cars in a long time. In high school I worked on my Prelude out of necessity and to look cool (which I absolutely was, with my LED windshield washer lights, underglow kit that got me pulled over only to be saved from a ticket by my car overheating and a sympathetic cop, my cold air intake, and fart can exhaust). As an adult, I&rsquo;ve done basic stuff\u2014changed my oil a few times, changed spark plugs\u2014but nothing significant since I never had space or the appropriate tools. The rest of my experience working on cars was as a kid/teen with my dad, where I learned how to hold a flashlight and get yelled at.\nSo the next few blog posts will be about my adventures in car maintenance for my 2017 Outback. To quote the great philosopher Jeremy Clarkson: &ldquo;How hard can it be?&rdquo;\nThe Adventure Log# CVT Fluid Change \u2014 March 26, 2026 Coolant Flush \u2014 March 29, 2026 PCV Valve \u2014 April 5, 2026 Serpentine Belt \u2014 April 11, 2026 Spark Plugs "
       }
     ).add(
       {
-        id: 6,
+        id: 7,
         href: "/recipes/italian-sausage-tortellini-soup/",
         title: "Italian Sausage Tortellini Soup",
         description: "My wife found this recipe on instagram or someplace and has made it a few times. It&rsquo;s fantastic and its relatively easy to make. The original recipe calls for gnocchi, but my wife, who doesn&rsquo;t like the texture of gnocchi, &lsquo;accidentally&rsquo; grabbed 3 cheese Tortellini the first time she made this and thats the way we tend to make it.\nSo, you can make it with Tortellini or gnocci.\nIngredients# 1 lb ground mild Italian sausage 8 oz bag of spinach, roughly chopped (or hand-shredded) 2 tbsp minced garlic 2 cups low-sodium chicken broth 2 cups half-and-half (or heavy cream) 3 oz grated Parmesan 1 package of 3 cheese Tortellini 1 tbsp tomato paste 1 tsp olive oil 1 tsp salt 1 tsp pepper 1 tsp Italian seasoning 1 tsp oregano 1 tsp parsley 1 tsp crushed red pepper flakes 1 tsp onion powder 1 tsp garlic powder Instructions# 1. Heat oil &amp; garlic# Add 1 tsp olive oil to a large pot or Dutch oven over medium heat. Add the minced garlic and cook until fragrant.\n",
@@ -948,7 +956,7 @@
       }
     ).add(
       {
-        id: 7,
+        id: 8,
         href: "/projects/voxdex-ai-transcription/",
         title: "AI-Powered Podcast Transcription System",
         description: "AI Auto Transcription System# Introduction# About two years ago, right as the LLM craze was really popping off, I stumbled on WhisperAI&ndash;a tool released by OpenAI that let you transcribe audio (voice-to-text). I actually uncovered it when I was looking at a way to dictate some of my personal notes in Neovim (vimwiki). I found nerd-dictation [https://github.com/ideasman42/nerd-dictation] which was super amazing, but didn&rsquo;t work on my macbook and died on me as linux began the march away from x11 to wayland. Nerd-dictation required some of the security&hellip;&ldquo;openness&rdquo; that X11 afforded. I switched to wayland to get something working on my Pop_OS! machine, and when I did that, I lost my ability to use nerd-dictation.\n",
@@ -956,7 +964,7 @@
       }
     ).add(
       {
-        id: 8,
+        id: 9,
         href: "/recipes/roasted-tomato-burrata-dip/",
         title: "Roasted Tomato & Burrata Dip with Garlic Crostinis",
         description: "Stoney made this during his night to cook during the OBX trip in 2025. Ripe bursted cherry tomatoes, stir in burrata or stracciatella, and scoop it all up with crispy garlic crostinis.\nIngredients# # For the dip 2 cups cherry or grape tomatoes 2 Tbsp olive oil (or enough to coat the baking dish) \xBD tsp salt (or to taste) \xBC tsp freshly ground black pepper Pinch of red pepper flakes (optional, for heat) 1\u20132 cloves garlic, minced 1 Tbsp chopped fresh parsley 1 tsp dried oregano (or 1 Tbsp fresh, chopped) 1 burrata (or equivalent amount of stracciatella / burrata filling) Handful of fresh basil leaves, torn 2 Tbsp freshly grated Parmesan (more for serving, optional) # For the garlic crostinis 1 French baguette (or similar crusty bread) 2\u20133 Tbsp butter, softened 1 clove garlic, minced Pinch of salt 1 Tbsp chopped parsley 1 Tbsp grated Parmesan (optional) Instructions# 1. Preheat &amp; prep# Preheat your oven to 425 \xB0F (220 \xB0C).\n",
@@ -964,7 +972,7 @@
       }
     ).add(
       {
-        id: 9,
+        id: 10,
         href: "/blog/shortcode-examples/",
         title: "Shortcode Examples",
         description: "Testing the new shortcodes implementation",
@@ -972,7 +980,7 @@
       }
     ).add(
       {
-        id: 10,
+        id: 11,
         href: "/blog/open-webui/",
         title: "Using open-webui as a local ChatGPT replacement",
         description: "Using open-webui# I set up a local LLM using ROCm on my desktop in my last post. So I have the LLM running locally, but its pretty clunky and as a paying user of ChatGPT, I want that cleaner UI/UX. Enter open-webui. This is exactly what I was looking for as a front-end for the ollama server I set up.\nI decided to go with the Docker setup.\n",
@@ -980,7 +988,7 @@
       }
     ).add(
       {
-        id: 11,
+        id: 12,
         href: "/blog/rocm-on-pop/",
         title: "Running an LLM locally on Pop!_OS with ROCm support",
         description: "Running ROCm on Pop!# This has gotten sooo much easier than when I tried to set this up 2 years ago. ROCm has come a long way, but the support and tooling has advanced as well. Now you don&rsquo;t have to jump through tons of hoops to get AI libraries and software to work with ROCm. The last time I tried this, I needed to add ubuntu repos, edit my /etc/os-release file to pretend I was using ubuntu&quot;, and do a rain-dance to get my Raedeon 6900xt in a usable state.\n",
@@ -988,7 +996,7 @@
       }
     ).add(
       {
-        id: 12,
+        id: 13,
         href: "/blog/pop-refresh/",
         title: "Pop Refresh",
         description: "Pulled the trigger on a Pop_OS refresh# I&rsquo;ve been having an issue with Apex Legends. It&rsquo;s gotten progressively worse of the last few months to the point where it just doesn&rsquo;t work anymore. Thats the story for another blog post but I decided to go &ldquo;nuclear&rdquo; and do a pop-refresh https://support.system76.com/articles/pop-recovery\nI figured it wouldn&rsquo;t be a bad idea to clear out all of those config tweaks, orphaned programs, and all of that other stuff that, over years of use, builds up on your system.\n",
@@ -996,7 +1004,7 @@
       }
     ).add(
       {
-        id: 13,
+        id: 14,
         href: "/recipes/stuffed-peppers/",
         title: "Stuffed Peppers",
         description: "These stuffed peppers are filled with a hearty mix of rice, ground meat, and tomato, then baked until the peppers are tender and everything comes together in one simple dish.\n",
@@ -1004,7 +1012,7 @@
       }
     ).add(
       {
-        id: 14,
+        id: 15,
         href: "/blog/migration-pt2/",
         title: "Migration Pt2",
         description: "Updating DNS Records# This was a fairly straightforward process:\nLog into GitHub &gt; Go to your public repo &gt; Settings &gt; Pages: and enter your domain in the Custom Domain section Add your domain name www.wesgould.com Log into your DNS provider. Delete CNAME / A-RECORDs for www.wesgould.com and wesgould.com to avoid conflicts with the new records. ADD CNAME RECORD for www.wesgould.com. Add A-RECORD for wesgould.com. To create A records, point your apex domain to the IP addresses for GitHub Pages: - 185.199.108.153 - 185.199.109.153 - 185.199.110.153 - 185.199.111.153 ",
@@ -1012,7 +1020,7 @@
       }
     ).add(
       {
-        id: 15,
+        id: 16,
         href: "/recipes/homebakes/",
         title: "Homebakes",
         description: "Home Bakes# Family recipe from Oma passed down.\nIngredients# 2 cups Sugar 4 Tbls. Cocoa 1 stick Butter \xBD cup Milk \xBD cup Peanut Butter 2 \xBD cups 1 Minute Oatmeal Directions:# 1. Lay down two strips of waxed paper. (Foil can also be used in a pinch.)\n2. In a large saucepan, combine sugar and cocoa. Stir until well blended.\n",
@@ -1020,7 +1028,7 @@
       }
     ).add(
       {
-        id: 16,
+        id: 17,
         href: "/blog/migrating-to-hugo/",
         title: "Migrating to Hugo",
         description: "It&rsquo;s been an&hellip;adventure.\nWhy Switch from Publii to Hugo?# I am switching from Publii to Hugo because I wanted to take advantage of the text notes I was already taking with Vimwiki for my various projects. The Publii interface was nice, but I&rsquo;m already writing notes in a format that doesn&rsquo;t require me to use their WYSIWYG editor. I know that seems lazy, but it&rsquo;s an extra step that caused just enough friction that I wouldn&rsquo;t update the blog.\n",
@@ -1028,7 +1036,7 @@
       }
     ).add(
       {
-        id: 17,
+        id: 18,
         href: "/blog/creating-nfs-shares/",
         title: "Creating NFS Shares",
         description: "Creating an NFS share# If you are trying to share between *nix systems, the Network File Servers (NFS) are really easy to set up. Note: If you are planning on sharing with Windows machines, SMB/Samba is a better option.\nIt should also be noted that NFS doesn&rsquo;t restrict, by default, to individual users. It limits to IPs and IP ranges&ndash;which makes it ideal for secure networks, but less-than-ideal for non-secure / public networks.\n",
@@ -1036,7 +1044,7 @@
       }
     ).add(
       {
-        id: 18,
+        id: 19,
         href: "/recipes/enchilada-casserole/",
         title: "Enchilada Casserole",
         description: "One of Mom\u2019s favorite recipes from Kris H. &amp; Robin K.\nIngredients# 2 cups grated cheddar cheese 1/2 cup finely chopped green onion 2 cans cream of chicken soup 1 cup sour cream 1 can chopped green chilies 1/2 tsp salt 2 cans chicken (all white meat) OR 4 chicken breasts, cooked and chopped 12 corn tortillas, hand shredded Important Ingredient Note Use Chopped Green Chilies from the Mexican Food section - these come in very small cans. DO NOT GET FIRE-ROASTED versions! The cans look almost identical but the taste is completely different. Chicken Cooking Tip Cook raw chicken breasts by placing in a sauce pan, just cover with water, and bring to boil. Turn heat to low and simmer for 30 minutes to 1 hour until no pink remains in center. Remove chicken, cool, and chop into bite-sized pieces. This keeps the meat tender and moist. Instructions# Preheat oven to 350\xB0F.\n",
@@ -1044,7 +1052,7 @@
       }
     ).add(
       {
-        id: 19,
+        id: 20,
         href: "/recipes/cincinatti-chili/",
         title: "Cincinatti Chili",
         description: "Ingredients# # For the chili 2 pounds ground beef (80:20 is good; 90:10 works as well and will obviously be less fatty) 1 6-ounce can tomato paste 4 cups water 1 (8-ounce) can tomato sauce 1 large onion, minced 6 cloves garlic, minced (pre-minced in the jar is fine) 3 tablespoons chili powder 1 teaspoon cumin 1 teaspoon cinnamon 3/4 teaspoon ground allspice 1/4 teaspoon ground cloves 1/2 teaspoon cayenne 2 teaspoons kosher salt 2 tablespoons Worcestershire sauce TIP: Measure all of your ingredients first. I usually set all of the spices on my left with a small bowl in front of me. As I measure and put each ingredient into the bowl, I move the spice bottle to the right side so I know I&rsquo;ve added it. It&rsquo;s really easy to forget which spices you&rsquo;ve measured out!\n",
@@ -1052,7 +1060,7 @@
       }
     ).add(
       {
-        id: 20,
+        id: 21,
         href: "/blog/embed-video-files/",
         title: "Embed Video Files",
         description: "Use the video shortcode to embed your video files from Hugo Page Resources.\n",
@@ -1060,7 +1068,7 @@
       }
     ).add(
       {
-        id: 21,
+        id: 22,
         href: "/blog/image-optimization/",
         title: "Image Optimization",
         description: "The theme optimizes images by default with a custom Hugo&rsquo;s markdown render hook:\nThe theme creates resized versions for each image, ranging from 100 to 700 pixels wide. It generates WebP versions for each size if the original image format isn&rsquo;t WebP. The theme keeps the original file format as a fallback for browsers that don&rsquo;t support the WebP format. Images in SVG format are embedded as-is. Blog Post Cover Images# Use the front matter of your posts to add cover images:\n",
@@ -1068,7 +1076,7 @@
       }
     ).add(
       {
-        id: 22,
+        id: 23,
         href: "/blog/turkey-trot-2019/",
         title: "Turkey Trot 2019",
         description: "Turkey Trot 2k19# Date: November 28, 2019\nThe family decided to go to a Turkey Trot before we ate Thanksgiving dinner. I bet my niece $1 that I would run it in under 40 minutes. I got &lt; 33 minutes (unofficially\u2014the times aren&rsquo;t posted yet).\nAbout 900 people signed up for this particular 5k!\nThe 2nd prize was a huge pie (and a $50 Dick&rsquo;s gift card, but you can&rsquo;t eat that so it&rsquo;s less important).\n",
@@ -1076,7 +1084,7 @@
       }
     ).add(
       {
-        id: 23,
+        id: 24,
         href: "/blog/placeholder-text/",
         title: "Placeholder Text",
         description: "Lorem Ipsum Dolor Si Amet",
